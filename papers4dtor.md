@@ -227,7 +227,18 @@ system through an actuator.
 
 ## [Real-time Optimization](#content)
 
-1. **Multi-fidelity simulation optimization for airline disruption management**.
+The challenges in real-time optimization is to address the difficulties of a large and complicated solution space and short computation time constraints. Related methods include but not limited to:
+- multi-fidelity approaches
+- parallel computing
+- offline simulation online application
+
+1. **Multi-fidelity simulation optimization for airline disruption management**. Proceedings of the 2018 Winter Simulation Conference, 2018. [paper](https://ieeexplore.ieee.org/document/8632329). *Luke Rhodes-Leader, David J. Worthington, Barry L. Nelson, Bhakti Stephan Onggo*. <font color=purple>@TAG real-time optimization; synchronization fidelity</font>
+
+> This paper presents a method for the aircraft recovery problem that uses multi-fidelity modeling including a trust region simulation optimization algorithm to mitigate the computational costs of using high-fidelity simulations with its benefits for providing good estimates of the true performance.
+
+> <font color=green>@RQ The contribution of this paper is a method to balance the need to use a high-fidelity simulation model to estimate the performance of a recovery option with the computational difficulties associated with simulation in this context. These difficulties include a large and complicated solution space and short computation time constraints.</font>
+
+> Future work will include considering how the repeated nature of the problem could be exploited to improve both the models and the optimization process in a symbiotic manner.
 
 ## [Inter-operability](#content)
 
