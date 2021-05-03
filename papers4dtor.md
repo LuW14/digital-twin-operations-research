@@ -3,7 +3,7 @@ We would like to maintain resources that discuss digital twins (DT) and the rela
 
 *2021-05-03:*
 - We use <font color=green>green font (in visual studio code)/@RQ (in GitHub) to highlight the research questions</font>
-- We use <font color=purple>purple font</font> (in visual code)/@TAG (in GitHub)to highlight the tags, including:
+- We use <font color=purple>purple font</font> (in visual studio code)/@TAG (in GitHub)to highlight the tags, including:
 	- introduction
 	- integration of data/intelligent/human
 	- real-time optimization
