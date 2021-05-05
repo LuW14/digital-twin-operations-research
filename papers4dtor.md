@@ -1,7 +1,6 @@
 # Papers: Digital Twin and Operations Research
 We would like to maintain resources that discuss digital twins (DT) and the related issues in operations research (OR).
 
-*2021-05-03:*
 - We use <font color=green>green font (in visual studio code)/@RQ (in GitHub) to highlight the research questions</font>
 - We use <font color=purple>purple font</font> (in visual studio code)/@TAG (in GitHub)to highlight the tags, including:
 	- introduction
@@ -17,6 +16,8 @@ We would like to maintain resources that discuss digital twins (DT) and the rela
 	- data quality
 	- ...
 
+*2021-05-05:*
+- Working on the research question and related research on the real-time decision-making issue.
 
 ## [Content](#content)
 
@@ -36,7 +37,7 @@ We would like to maintain resources that discuss digital twins (DT) and the rela
 	<td>&emsp;<a href=#integration-of-data>2.4 Integration of data</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#real-time-optimization>2.5 Real-time optimization</a></td>
+	<td>&emsp;<a href=#real-time-decision-making>2.5 Real-time Decision-making</a></td>
 	<td>&emsp;<a href=#inter-operability>2.6 Inter-operability</a></td>
 </tr>
 </table>
@@ -379,30 +380,74 @@ system through an actuator.
 2. **In-situ AI: Towards Autonomous and Incremental Deep Learning for IoT Systems**, 2018 IEEE International Symposium on High Performance Computer Architecture. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8327001). *Mingcong Song; Kan Zhong; Jiaqi Zhang; Yang Hu; Duo Liu; Weigong Zhang; Jing Wang; Tao Li*
 
 > Rather than constantly moving a tremendous amount of raw data to the Cloud, it would be beneficial to leverage the emerging powerful IoT devices to perform the inference task.
+> - Two factors in the real IoT systems: data is dynamic and unlabeled. 
 
 > <font color=green>@RQ Nevertheless, the statically trained model could not efficiently handle the dynamic data in the real in-situ environments, which leads to low accuracy. Moreover, the big raw IoT data challenges the traditional supervised training method in the Cloud.</font>
 
 > We propose In-situ AI, the first Autonomous and Incremental computing framework and architecture for deep learning based IoT applications. We equip deep learning based IoT system with autonomous IoT data diagnosis (minimize data movement), and incremental and unsupervised training method (tackle the big raw IoT data generated in ever-changing in-situ environments).
 
-## [Real-time Optimization](#content)
+> The result shows:
+> - (1) a tradeoff exists between fast response time and energy-efficiency; 
+> - (2) latency and energy-efficiency are two key metrics for inference task, while energy-efficiency is the only design concern for the diagnosis task.
 
-The challenges in real-time optimization is to address the difficulties of a large and complicated solution space and short computation time constraints. Related methods include but not limited to:
-- multi-fidelity approaches
-- parallel computing
-- offline simulation online application
+## [Real-time Decision-making](#content)
 
-1. **Multi-fidelity simulation optimization for airline disruption management**. Proceedings of the 2018 Winter Simulation Conference, 2018. [paper](https://ieeexplore.ieee.org/document/8632329). *Luke Rhodes-Leader, David J. Worthington, Barry L. Nelson, Bhakti Stephan Onggo*. <font color=purple>@TAG real-time optimization; synchronization fidelity</font>
+<font color=green>@RQ DTs need novel decision-making frameworks and efficient algorithms to address the difficulties of the computational complexity and short computation time constraints.</font>
+
+Challenges of online problems: Incomplete information; the complexity of computing the optimal policy (curse of dimensionality).
+
+Challenges of real-time problems: challenges of online problems + tight computation time constraints. (The exchange of information between PO and LO should be timely, that is, in such a way that the time between the changes of states of the PO is negligible with respect to the needs and intended usage of the LO by applications or users.)
+
+Related methods include but not limited to:
+- High-quality algorithms (both online and offline) in complex problems (discrete and high-dimensional). Online optimization research develop online algorithms and analyze the quality of online algorithms (the competitive ratio, which compares a solution produces by the online algorithm with the best possible solution.). 
+- Offline simulation online application. To apply offline results online.
+- Multi-fidelity approaches
+- Parallel computing
+
+Why the current tools are insufficient for DT?
+- The DT requires a shorter response time.
+- The application scope of DTs is enlarged. The interaction between DTs further complicate the problem.
+- It is challenging to process the massive and low information density data in real time.
+
+
+1. **Online Optimization—An Introduction**. INFORMS TutORials in Operations Research, 2010. [paper](https://doi.org/10.1287/educ.1100.0072). *Patrick Jaillet, Michael R. Wagner.*
+
+> An online problem is one where the problem data are revealed incrementally. 
+> - In the sequential model, when a request is revealed, a decision by the online algorithm must be made before the next request is revealed. 
+> - In the dynamic model, the requests are revealed dynamically over time, irrespective of the actions of the online algorithm. The time at which a request is revealed is (usually) denoted as the request’s release date.
+
+2. **Multi-fidelity simulation optimization for airline disruption management**. Proceedings of the 2018 Winter Simulation Conference, 2018. [paper](https://ieeexplore.ieee.org/document/8632329). *Luke Rhodes-Leader, David J. Worthington, Barry L. Nelson, Bhakti Stephan Onggo*. <font color=purple>@TAG real-time optimization; synchronization fidelity</font>
 
 > This paper presents a method for the aircraft recovery problem that uses multi-fidelity modeling including a trust region simulation optimization algorithm to mitigate the computational costs of using high-fidelity simulations with its benefits for providing good estimates of the true performance.
 
 > <font color=green>@RQ The contribution of this paper is a method to balance the need to use a high-fidelity simulation model to estimate the performance of a recovery option with the computational difficulties associated with simulation in this context. These difficulties include a large and complicated solution space and short computation time constraints.</font>
 
+> In each case, 2000 simulation replications were allowed for the optimisation procedure, with $nd = 5$ replications at each design point, and 20 replications used for the acceptance tests. (The solution times are not reported.)
+
 > Future work will include considering how the repeated nature of the problem could be exploited to improve both the models and the optimization process in a symbiotic manner.
 
-2. **Analytics with digital-twinning: A decision support system for maintaining a resilient port**. Decision Support Systems, 2021. [paper](https://doi.org/10.1016/j.dss.2021.113496). *Chenhao Zhou, Jie Xu, Elise Miller-Hooks, Weiwen Zhou, Chun-Hung Chen, Loo
+3. **Analytics with digital-twinning: A decision support system for maintaining a resilient port**. Decision Support Systems, 2021. [paper](https://doi.org/10.1016/j.dss.2021.113496). *Chenhao Zhou, Jie Xu, Elise Miller-Hooks, Weiwen Zhou, Chun-Hung Chen, Loo
 Hay Lee, Ek Peng Chew, Haobin Li*. <font color=purple>@TAG real-time optimization; synchronization fidelity</font>
 
 > Because digital twin runs are time-consuming, there are important <font color=green>trade-offs between making enough runs for accurate estimates and computation time</font>. For real-world size applications, especially when used to support real-time operations, efficient run designs with good statistical accuracy are needed. It is likely that with insufficient runs to guarantee statistical accuracy the DSS will select a sub-optimal recovery action for a given scenario and, simultaneously, develop an incorrect (reduced) resilience assessment. To tackle this computational challenge, the proposed DSS integrates a state-of-the-art simulation-optimization method known as optimal computing budget allocation (OCBA) (Chen and Lee [12,13]) to determine the number of simulations to be executed for each candidate recovery action under a given simulation budget.
+
+4. **A Real-Time Multiobjective Optimization Algorithm for Discovering Driving Strategies**. TS, 2018. [paper](https://doi.org/10.1287/trsc.2018.0872). *Erik Dovgan, Matjaž Gams, Bogdan Filipič*. 
+
+> This paper presents a real-time multiobjective optimization algorithm for discovering driving strategies that uses a black-box driving simulator to search for driving strategies on a given route and minimizes the traveling time and the fuel consumption.
+
+> During the driving prediction, the computational time is checked several times. When the computational time is going to exceed the available computational time, the driving prediction stops, that is, the algorithm jumps to Line 27 and continues with the selection of the best control action for the next step. The computational time available for the selection of the control action for the next step is equal to the traveling time of the current step.
+
+> A particular challenge would be the deployment of the algorithm in a real-life vehicle and its evaluation on a real route, where real-life neighboring vehicles and unexpected events have to be considered.
+
+5. **Online Algorithms for Multilevel Aggregation**. OR, 2020. [paper](https://doi.org/10.1287/opre.2019.1847). 
+
+> In practice, however, packet aggregation decisions must be done on the fly, in real time. This gives rise to the online version of TCP-AP, in which an online algorithm receives information about messages as they are released over time. At each time step, this algorithm needs to decide whether to transmit the packet with pending messages or not, without any information about future message releases.
+
+6. **Industrial IoT integrated with Simulation – A Digital Twin approach to support real-time decision making**. Proceedings of the International Conference on Industrial Engineering and Operations Management, 2019. [paper](http://ieomsociety.org/pilsen2019/papers/225.pdf)
+
+
+5. **6 Best Practices for Real-Time Analytics**, Gartner, 2016. [article](https://www.gartner.com/smarterwithgartner/six-best-practices-for-real-time-analytics/).
+
 
 ## [Inter-operability](#content)
 
@@ -411,3 +456,5 @@ Hay Lee, Ek Peng Chew, Haobin Li*. <font color=purple>@TAG real-time optimizatio
 > Challenges: Practitioners of operations research often consider difficult variants of well-known optimization problems and struggle to find a good algorithm for their variants although decades of research have produced highly efficient algorithms for the well-known problems. 
 
 > Methods: We introduce a machine learning for operations research paradigm to build efficient heuristics for such variants: use a machine learning predictor to turn an instance of the variant into an instance of the well-known problem, then solve the instance of the well-known problem, and finally retrieve a solution of the variant from the solution of the well-known problem. This paradigm requires learning the predictor that transforms an instance of the variant into an instance of the well-known problem. We introduce a structured learning methodology to learn that predictor.
+
+2. **A Model-Driven Approach to Interoperability Between Simulation and Optimization for Production and Logistics Systems**. NIST, 2021. [paper](https://doi.org/10.6028/NIST.IR.8326). *Timothy Sprock*
