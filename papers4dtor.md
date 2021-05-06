@@ -7,6 +7,7 @@ We would like to maintain resources that discuss digital twins (DT) and the rela
 	- integration of data/intelligent/human
 	- real-time optimization
 	- ownership
+	- standardization
 	- inter-operability
 	- composability
 	- servitization
