@@ -6,5 +6,7 @@
         "markdown",
         "latex",
         "plaintext"
-    ]
+    ],
+    "spellright.statusBarIndicator": true,
+    "markdown.preview.typographer": true
 }

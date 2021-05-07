@@ -40,3 +40,11 @@
 
 ![](./image/2020-ieee-visions.png)
 
+
+2. **Digital Twin-driven smart manufacturing: Connotation, reference model, applications and research issues**. Robotics and Computer Integrated Manufacturing, 2020. [paper](https://doi.org/10.1016/j.rcim.2019.101837). *Yuqian Lu, Chao Liu, Kevin I-Kai Wang, Huiyue Huang, Xun Xu*
+
+> Digital Twin for smart manufacturing:
+> - Digital Twin for manufacturing assets
+> - Digital Twin for people
+> - Digital Twin for factories
+> - Digital Twin for production networks
