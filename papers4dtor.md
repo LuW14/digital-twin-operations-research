@@ -24,26 +24,31 @@ We would like to maintain resources that discuss digital twins (DT) and the rela
 
 <table>
 <tr><td colspan="2"><a href="#research-papers-in-dt">1. Research papers in DT</a></td></tr> 
-<tr>
-	<td>&emsp;<a href=#concept-and-survey>1.1 Concept development and survey</a></td>
-</tr>
+<tr><td colspan="2">&emsp;<a href="#concept-and-survey">1.1 Concept development and survey</a></td></tr>
+
 <tr><td colspan="2"><a href="#industry-reports-in-dt">2. Industry reports in DT</a></td></tr> 
 <tr><td colspan="2"><a href="#related-research-papers-in-or">3. Related research papers in OR</a></td></tr>
+<tr><td colspan="2">&emsp;<a href="#survey">2.1 Survey</a></td></tr>
+<tr><td colspan="2">&emsp;<a href="#real-time-decision-making">2.2 Real-time decision-making</a></td></tr>
 <tr>
-	<td>&emsp;<a href=#survey>2.1 Survey</a></td>
-	<td>&emsp;<a href=#modeling-complex-eop>2.2 Modeling complex EoP</a></td>
+	<td>&emsp;&emsp;<a href=#symbiotic-simulation>2.2.1 Symbiotic simulation</a></td>
+	<td>&emsp;&emsp;<a href=#online-problems>2.2.2 Online problems</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#integration-of-data>2.3 Integration of data</a></td>
-	<td>&emsp;<a href=#symbiotic-simulation>2.4 Symbiotic simulation</a></td>
+	<td>&emsp;&emsp;<a href=#simulation-optmization>2.2.3 Simulation optmization</a></td>
+	<td>&emsp;&emsp;<a href=#offline-simulation-online-application>2.2.4 Offline simulation online application</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#real-time-decision-making>2.5 Real-time Decision-making</a></td>
-	<td>&emsp;<a href=#inter-operability>2.6 Inter-operability</a></td>
+	<td>&emsp;&emsp;<a href=#multi-fidelity-approaches>2.2.5 Multi-fidelity approaches</a></td>
+	<td>&emsp;&emsp;<a href=#parallel-computing>2.2.6 Parallel computing</a></td>
 </tr>
 <tr>
-	<td>&emsp;<a href=#synchronization-frequency>2.7 Synchronization frequency</a></td>
+	<td>&emsp;&emsp;<a href=#applications>2.2.7 Applications</a></td>
 </tr>
+<tr><td colspan="2">&emsp;<a href="#integration-of-data">Integration of data</a></td></tr>
+<tr><td colspan="2">&emsp;<a href="#inter-operability">Inter-operability</a></td></tr>
+<tr><td colspan="2">&emsp;<a href="#synchronization-frequency">Synchronization frequency</a></td></tr>
+<tr>
 </table>
 
 
@@ -327,34 +332,10 @@ Publications Office of the European Union, 2020. [report](https://op.europa.eu/e
 
 > **Organizational Sense-making in an Algorithmic World:** In this regard, cutting-edge techniques such as machine learning produce an additional qualitative shift in how data are used—from representing data to improving human perception of phenomena to prediction, which may or may not involve or be subject to human comprehension. There is a delicate balance that managers may have to strike in this area: they may need to let go of the need to understand in order to satisfy the need to predict. Yet, the risks of ethically repellant outcomes and regulatory constraints and the desire to satisfy sheer human curiosity make this balancing act far from trivial. Theorists may well soon face similar challenges (Puranam 2019). In the meantime, as algorithmic representation becomes ever more effective while becoming ever less comprehensible, the rise of new organizational roles—like *Data Storyteller*—may not be as surprising as it initially appears. As Weick suggested, a comprehensible and motivating story may have value independent of its veracity (Weick 1995). In a “mixed economy” of algorithmic decision analysis but ultimately human decision responsibility, compelling and clear narratives may become more, not less, important. <font color=purple>@TAG integration of intelligence and human</font>
 
-### [Modeling complex EoP](#content)
 
-### [Integration of Data](#content)
 
-1. **The Internet of Things and Information Fusion: Who Talks to Who?**. M&SOM, 2021. [paper](https://pubsonline.informs.org/doi/10.1287/msom.2020.0958). *Soroush Saghafian, Brian Tomlin, Stephan Billerc* <font color=purple>@TAG integration of data (interfirm); data quality; ownership</font>
 
-> Problem definition: <font color=green>@RQ Autonomous sensors connected through the internet of things (IoT) are deployed by different firms in the same environment. The sensors measure an important operating-condition state variable, but their measurements are noisy, so estimates are imperfect. Sensors can improve their own estimates by soliciting estimates from other sensors. The choice of which sensors to communicate with (target) is challenging because sensors (1) are constrained in the number of sensors they can target and (2) only have partial knowledge of how other sensors operate—that is, they do not know others’ underlying inference algorithms/models. We study the targeting problem, examine the evolution of interfirm sensor communication patterns, and explore what drives the patterns.</font>
-
-> Consider any given sensor $i$, and assume (without loss of generality) that it can select its target from two sensors: a high-quality sensor (labeled $h$) and a lower-quality sensor (labeled $l$). When should sensor $i$ target sensor $h$? When should it target sensor $l$? How does this choice depend on the initial state $s_0$?
-
-2. **In-situ AI: Towards Autonomous and Incremental Deep Learning for IoT Systems**, 2018 IEEE International Symposium on High Performance Computer Architecture. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8327001). *Mingcong Song; Kan Zhong; Jiaqi Zhang; Yang Hu; Duo Liu; Weigong Zhang; Jing Wang; Tao Li*
-
-> Rather than constantly moving a tremendous amount of raw data to the Cloud, it would be beneficial to leverage the emerging powerful IoT devices to perform the inference task.
-> - Two factors in the real IoT systems: data is dynamic and unlabeled. 
-
-> <font color=green>@RQ Nevertheless, the statically trained model could not efficiently handle the dynamic data in the real in-situ environments, which leads to low accuracy. Moreover, the big raw IoT data challenges the traditional supervised training method in the Cloud.</font>
-
-> We propose In-situ AI, the first Autonomous and Incremental computing framework and architecture for deep learning based IoT applications. We equip deep learning based IoT system with autonomous IoT data diagnosis (minimize data movement), and incremental and unsupervised training method (tackle the big raw IoT data generated in ever-changing in-situ environments).
-
-> The result shows:
-> - (1) a tradeoff exists between fast response time and energy-efficiency; 
-> - (2) latency and energy-efficiency are two key metrics for inference task, while energy-efficiency is the only design concern for the diagnosis task.
-
-3. **Application of IoT-Aided Simulation to Manufacturing Systems in Cyber-Physical System**. Machines, 2019. [paper](https://doi.org/10.3390/machines7010002). *Yifei Tan, Wenhe Yang, Kohtaroh Yoshida, Soemon Takakuwa*
-
-> <font color=green>@RQ Issues such as the reception of real-time data from the IoT, as well as the conversion and inputting of the data into a simulation model have not yet been completely solved. Even though some general roadmaps and frameworks have been proposed, it is still not clear what kind of data and information must be integrated.</font>
-
-> When constructing a DT, a specific framework to guide the process of extracting the necessary data from the physical system and a scheme for entering these data into the cyber-side simulation model are required.
+## [Real-time Decision-making](#content)
 
 ### [Symbiotic Simulation](#content)
 
@@ -397,36 +378,84 @@ Publications Office of the European Union, 2020. [report](https://op.europa.eu/e
 > - security and data-privacy issues
 > - methodological challenges <font color=green>@RQ (i)how to deal with highly dynamic physical systems; (ii) the need for suitable algorithms (e.g. optimization, machine learning) in a short-term decision-making environment; and (iii) how to create simulation models that are also adaptive in order to reflect changes in the physical system.</font>
 
-## [Real-time Decision-making](#content)
-
-<font color=green>@RQ DTs need novel decision-making frameworks and efficient algorithms to address the difficulties of the computational complexity and short computation time constraints.</font>
-
-Challenges of online problems: Incomplete information; the complexity of computing the optimal policy (curse of dimensionality).
-
-Challenges of real-time problems: challenges of online problems + tight computation time constraints. (The exchange of information between PO and LO should be timely, that is, in such a way that the time between the changes of states of the PO is negligible with respect to the needs and intended usage of the LO by applications or users.)
-- a discussion of concepts such as offline reinforcement learning, the difference between myopic models and dynamic programming, and the use of metamodeling for near-term prediction and control 
-
-Emerging research topics and promising avenue to pursue:
-- Novel framework:
-    - Offline simulation online application (framework). To apply offline results online.
-    - Symbiotic simulation (framework).
-- Techniques and algorithms
-    - High-quality algorithms (both online and offline) in complex problems (discrete and high-dimensional); efficient algorithms for high-dimensional simulator
-    - Multi-fidelity approaches
-    - Parallel computing
-
-Why the current tools are insufficient for DT?
-- The DT requires a shorter response time. Online optimization research develop online algorithms and analyze the quality of online algorithms (the competitive ratio, which compares a solution produces by the online algorithm with the best possible solution.) Unfortunately, these exact algorithms rarely scale past a few dozens or hundreds of customers and vehicles, depending on the application.
-- The application scope of DTs is enlarged. The interaction between DTs further complicate the problem. Simulators are build to model real-world entities' behavior, reasoning, and their interaction. 
-- A classical way to solve problems at a larger scale is the use of heuristics... Unfortunately, the heuristics are usually special purposed and have to be adapted to each particular new problem...
-- It is challenging to process the massive and low information density data in real time.
-
+### [Online Problems](#content)
 
 1. **Online Optimization—An Introduction**. INFORMS TutORials in Operations Research, 2010. [paper](https://doi.org/10.1287/educ.1100.0072). *Patrick Jaillet, Michael R. Wagner.*
 
 > An online problem is one where the problem data are revealed incrementally. 
 > - In the sequential model, when a request is revealed, a decision by the online algorithm must be made before the next request is revealed. 
 > - In the dynamic model, the requests are revealed dynamically over time, irrespective of the actions of the online algorithm. The time at which a request is revealed is (usually) denoted as the request’s release date.
+
+2. **Online Algorithms for Multilevel Aggregation**. OR, 2020. [paper](https://doi.org/10.1287/opre.2019.1847). 
+
+> In practice, however, packet aggregation decisions must be done on the fly, in real time. This gives rise to the online version of TCP-AP, in which an online algorithm receives information about messages as they are released over time. At each time step, this algorithm needs to decide whether to transmit the packet with pending messages or not, without any information about future message releases.
+
+3. **The Myopic Property in Decision Models**. Decision Analysis, 2019. [paper](https://doi.org/10.1287/deca.2018.0384). *Manel Baucells, Rakesh K. Sarin*
+
+> the optimal decision strategy is obtained by considering the impact of the current decision on all future decisions... Instead, he may think of small chunks of the problem in isolation. It is intuitively obvious that such myopic strategy generally produces suboptimal choices (Rabin and Weizsacker 2009)...We examine de- cision situations and utility functions for which solving a sequence of problems in isolation is globally optimal.
+
+4. **The Bayesian Prophet: A Low-Regret Framework for Online Decision Making**. Management Science 67(3):1368-1391. https://doi.org/10.1287/mnsc.2020.3624
+Alberto Vera, Siddhartha Banerjee (2021) 
+
+> Broadly speaking, an online decision-making problem is defined by a current state and a set of actions, which together determine the next state as well as generate rewards. In Markov decision processes (MDPs), the rewards and state transitions are also affected by some random shock. Optimal policies for such problems are known only in some special cases when the underlying problem is sufficientlysimpleand knowledgeofthe generative model sufficiently detailed. For many problems of of interest, an MDP approach is infeasible for two reasons: (1) insufficiently detailed models of the generative process of the randomness and (2) the complexity of computing the optimal policy (the so-called “curse of dimensionality”). These shortcomings have inspired a long line of work on approximate dynamic programming. 
+
+5. **Solving Myopia in Real-time Decision-making using Petri nets Models’ Knowledge for Service-oriented Manufacturing Systems**. IFAC Proceedings Volumes, 2010. [paper](https://doi.org/10.3182/20100701-2-PT-4011.00026). *Paulo Leitão, Joel Alves1, Ana I. Pereira*
+
+> This paper introduces a novel approach to the real-time decision-making in service-oriented manufacturing systems, addressing the myopia problem usually presented in such systems. 
+
+### [Simulation optmization](#content)
+1. **Optimization via Simulation Over Discrete Decision Variables.** In INFORMS TutORials in Operations Research, 2010. [paper](https://doi.org/10.1287/educ.1100.0069). *Barry L. Nelson*
+
+2. **History of seeking better solutions, AKA simulation optimization**. Proceedings of the 2017 Winter Simulation Conference, 2017. [paper](http://simulation.su/uploads/files/default/2017-fu-henderson.pdf). *Michael C. Fu, Shane G. Henderson*
+
+3. **An Adaptive Hyperbox Algorithm for High-Dimensional Discrete Optimization via Simulation Problems**. NFORMS Journal on Computing, 2013. [paper](https://doi.org/10.1287/ijoc.1110.0481). *Jie Xu, Barry L. Nelson, L. Jeff Hong*
+
+4. **Faster Kriging: Facing High-Dimensional Simulators**. OR, 2020. [paper](https://doi.org/10.1287/opre.2019.1860). *Xuefei Lu, Alessandro Rudi, Emanuele Borgonovo, Lorenzo Rosasco*.
+
+> Kriging is one of the most widely used emulation methods in simulation. How- ever, memory and time requirements potentially hinder its application to data sets generated by high-dimensional simulators. We borrow from the machine learning literature to propose a new algorithmic implementation of kriging that, while preserving prediction accuracy, notably reduces time and memory requirements. The theoretical and computational foundations of the algorithm are provided. The work then reports results of extensive numerical experiments to compare the performance of the proposed algorithm against current kriging implementations, on simulators of increasing dimensionality. Findings show notable savings in time and memory requirements that allow one to handle inputs across more that 10,000 dimensions.
+
+5. **Rapid Discrete Optimization via Simulation with Gaussian Markov Random Fields**. INFORMS Journal on Computing, 2020. [paper](https://doi.org/10.1287/ijoc.2020.0971). *Mark Semelhago, Barry L. Nelson, Eunhye Song, Andreas Wächter*
+
+> In our setting, the output is stochastic, and the number of feasible solutions is huge, but individual replications of a solution may be relatively cheap compared with a deterministic computer experiment. In combination, the computational overhead for inference is no longer negligible compared with the simulation cost.
+
+> Our primary contribution is to greatly extend the reach of GMRF-based optimization by dramatically reducing the computational cost of inference.
+
+
+### [Offline simulation online application](#content)
+1. **'Some tactical problems in digital simulation' for the next 10 years**. Journal of Simulation, 2016. [paper](https://link.springer.com/article/10.1057/jos.2015.22). *BL Nelson*.
+
+2. **A simulation analytics approach to dynamic risk monitoring.** Proceedings of the 2016 Winter Simulation Conference, 2016. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7822110). *Guangxin Jiang, L. Jeff Hong, Barry L. Nelson*.
+
+3. **Simulation-based predictive analytics for dynamic queueing systems**. Proceedings of the 2017 Winter Simulation Conference, 2017. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8247910). *Huiyin Ouyang, Barry L Nelson*.
+
+4. **Offline Simulation Online Application: A New Framework of Simulation-Based Decision Making**. Asia-Pacific Journal of Operational Research, 2019. [paper](https://doi.org/10.1142/S0217595919400153).
+
+> It is rarely used in making real-time decisions due to the long computation delay of executing simulation models. However, with the fast growth of computing capability, we have observed more and more works on reusing simulation efforts for repeated experiments with the help of data analytics tools, and the target of these works is to solve real-time decision problems.
+
+> With the fast growth of computing capability and with more and more data analytics tools, there are more and more recent works considering how to use complex simulation models and experiments to solve real-time decision problems....In this paper we summarize these works to a unified framework, which uses the offline simulation results on applications where online decisions need to be made. We call it the offline- simulation-online-application (OSOA) framework. The key to linking the offline simulation and online application are predictive models.
+
+> The OSOA framework, which treats simulation as a data generator, applies state-of-the-art analytics tools to build predictive models, and then uses the predictive models for real-time applications.
+
+> further research directions about OSOA
+> - Building new metamodeling techniques and theories in OSOA. As we have introduced in Sec. 2.1, the goal of metamodeling problems in the OSOA framework is different from that of classical metamodeling problems. In classical metamodeling problems, fitting accuracy is the most important criterion. However, in the OSOA framework, the metamodel (fitted surface) is used to make decisions, so the accuracy is not the only criterion. How to best support the decisions is the most important goal of the metamodeling in the OSOA framework. Therefore, building new metamodeling techniques and new theories under the OSOA framework are good research directions.
+> - Treating OSOA as a feedback loop. In the OSOA framework, the metamodels are often used repeatedly (with different observed values of the covariates). Real data are often observed after the decisions are made. Based on the real data and the simulated data, the simulation models need to be updated to capture the features of the stochastic system, e.g., better calibrating the model parameters and reducing model misspecifications. Therefore, how to handle these feedback loops becomes another interesting research direction.
+> - Dealing with high dimensional covariates. In many practical problems, the dimension of the covariates may be very high. For example in healthcare, a lot of information, such as the demographic information and gene information, may be collected for a patient. However, some diseases are only affected by a few of factors. That is, the effective dimension is low. In the OSOA framework, since we may repeat the simulation experiments and receive feedbacks regularly, we may utilize these information and some machine learning techniques to identify the effective dimensions. How to deal with high dimensional covariates and how to reduce dimensionality are interesting research directions in the OSOA framework.
+> - Embedding SO algorithms in OSOA. There are many efficient SO algorithms proposed in last two decades. An interesting research direction is to embed these algorithms to solve SO problems with covariates. Note that, in the OSOA framework, the problems of SO with covariates may have both high-dimensional decision variables and high-dimensional covariates. When designing the SO algorithms, these features need to be considered.
+
+5. **Plan Online, Learn Offline: Efficient Learning and Exploration via Model-Based Control**. Working paper, 2019. [paper](https://arxiv.org/abs/1811.01848). *Kendall Lowrey, Aravind Rajeswaran, Sham Kakade, Emanuel Todorov, Igor Mordatch*
+
+> We propose a plan online and learn offline (POLO) framework for the setting where an agent, with an internal model, needs to continually act and learn in the world. Our work builds on the synergistic relationship between local model-based control, global value function learning, and exploration.
+
+6. **Online Risk Monitoring Using Offline Simulation**. INFORMS Journal on Computing, 2020. [paper](https://doi.org/10.1287/ijoc.2019.0892). *Guangxin Jiang, L. Jeff Hong, Barry L. Nelson*. 
+
+7. **Offline–Online Approximate Dynamic Programming for Dynamic Vehicle Routing with Stochastic Requests**. Transportation Science, 2019. [paper](https://doi.org/10.1287/ trsc.2017.0767). *Marlin W. Ulmer, Justin C. Goodson, Dirk C. Mattfeld, Marco Hennig*.
+
+
+### [Multi-fidelity approaches](#content)
+
+1. **Survey of multi-fidelity methods in uncertainty propagation, inference, and optimization**. SIAM REVIEW, 2019. [paper](https://epubs.siam.org/doi/pdf/10.1137/16M1082469). *Benjamin Peherstorfer, Karen Willcox, Max Gunzburger*
+
+> This work surveys multi-fidelity methods that accelerate the solution of outer-loop applications by combining high-fidelity and low-fidelity model evaluations, where the low-fidelity evaluations arise from an explicit low-fidelity model (e.g., a simplified physics approximation, a reduced model, a data-fit surrogate) that approximates the same output quantity as the high-fidelity model.
 
 2. **Multi-fidelity simulation optimization for airline disruption management**. Proceedings of the 2018 Winter Simulation Conference, 2018. [paper](https://ieeexplore.ieee.org/document/8632329). *Luke Rhodes-Leader, David J. Worthington, Barry L. Nelson, Bhakti Stephan Onggo*. <font color=purple>@TAG real-time optimization; synchronization fidelity</font>
 
@@ -443,7 +472,21 @@ Hay Lee, Ek Peng Chew, Haobin Li*. <font color=purple>@TAG real-time optimizatio
 
 > Because digital twin runs are time-consuming, there are important <font color=green>trade-offs between making enough runs for accurate estimates and computation time</font>. For real-world size applications, especially when used to support real-time operations, efficient run designs with good statistical accuracy are needed. It is likely that with insufficient runs to guarantee statistical accuracy the DSS will select a sub-optimal c for a given scenario and, simultaneously, develop an incorrect (reduced) resilience assessment. To tackle this computational challenge, the proposed DSS integrates a state-of-the-art simulation-optimization method known as optimal computing budget allocation (OCBA) (Chen and Lee [12,13]) to determine the number of simulations to be executed for each candidate recovery action under a given simulation budget.
 
-4. **A Real-Time Multiobjective Optimization Algorithm for Discovering Driving Strategies**. TS, 2018. [paper](https://doi.org/10.1287/trsc.2018.0872). *Erik Dovgan, Matjaž Gams, Bogdan Filipič*. 
+### [Parallel computing](#content)
+1. **Fully Sequential Procedures for Large-Scale Ranking-and-Selection Problems in Parallel Computing Environments**. OR, 2015. [paper](http://dx.doi.org/10.1287/opre.2015.1413). *Jun Luo, L. Jeff Hong, Barry L. Nelson, Yang Wu*
+
+> In this paper, we propose two types of fully sequential procedures that can be used in parallel computing environments. We call them vector-filling procedures and asymptotic parallel selection procedures, respectively. Extensive numerical experiments show that the proposed procedures can take advantage of multiple parallel processors and solve large-scale R&S problems.
+
+2. **Knockout-Tournament Procedures for Large-Scale Ranking and Selection in Parallel Computing Environments**. Working paper, 2020. [paper](https://www.researchgate.net/publication/339200267_Knockout-Tournament_Procedures_for_Large-Scale_Ranking_and_Selection_in_Parallel_Computing_Environments). *Ying Zhong, L. Jeff Hong*
+
+> When using parallel computing environments, we argue that the existing stage-wise procedures and fully-sequential procedures are both inefficient, and we need a new framework that takes a holistic view at the total computation time, including the time spent on simulation, comparison, and communication. Stage-wise procedures were first proposed to handle physical experiments, and fully-sequential procedures were more suitable to handle computer experiments generated in a single processor. Using them directly in parallel computing environments for large-scale problems will cause either too many simulation observations or too many comparisons or too many communications among the processors. In this paper, we propose new R&S procedures that consider the total computation time and work well in parallel computing environments, especially commercial clouds.
+
+> We show that no matter whether the variances of the alternatives are known or not, our procedures can theoretically achieve the lowest growth rate on the expected total sample size with respect to the number of alternatives and thus are optimal in rate. 
+
+3. **Speeding Up Paulson’s Procedure for Large-Scale Problems Using Parallel Computing**. INFORMS Journal on Computing, 2021. [paper](https://doi.org/10.1287/ijoc.2020.1054)
+
+### [Applications](#content)
+1. **A Real-Time Multiobjective Optimization Algorithm for Discovering Driving Strategies**. TS, 2018. [paper](https://doi.org/10.1287/trsc.2018.0872). *Erik Dovgan, Matjaž Gams, Bogdan Filipič*. 
 
 > This paper presents a real-time multiobjective optimization algorithm for discovering driving strategies that uses a black-box driving simulator to search for driving strategies on a given route and minimizes the traveling time and the fuel consumption.
 
@@ -451,15 +494,11 @@ Hay Lee, Ek Peng Chew, Haobin Li*. <font color=purple>@TAG real-time optimizatio
 
 > A particular challenge would be the deployment of the algorithm in a real-life vehicle and its evaluation on a real route, where real-life neighboring vehicles and unexpected events have to be considered.
 
-5. **Online Algorithms for Multilevel Aggregation**. OR, 2020. [paper](https://doi.org/10.1287/opre.2019.1847). 
-
-> In practice, however, packet aggregation decisions must be done on the fly, in real time. This gives rise to the online version of TCP-AP, in which an online algorithm receives information about messages as they are released over time. At each time step, this algorithm needs to decide whether to transmit the packet with pending messages or not, without any information about future message releases.
-
-6. **Industrial IoT integrated with Simulation – A Digital Twin approach to support real-time decision making**. Proceedings of the International Conference on Industrial Engineering and Operations Management, 2019. [paper](http://ieomsociety.org/pilsen2019/papers/225.pdf)
+2. **Industrial IoT integrated with Simulation – A Digital Twin approach to support real-time decision making**. Proceedings of the International Conference on Industrial Engineering and Operations Management, 2019. [paper](http://ieomsociety.org/pilsen2019/papers/225.pdf)
 
 > The suggested approach involves a Manufacturing Executing System (MES) producing a production schedule, an IoT Platform composed by a message broker and a real-time database, a Simulator including simulation software and a wrapper, and a user application serving as an interface between the user and the IoT Platform and Simulator integrated system. 
 
-7. **Online Vehicle Routing: The Edge of Optimization in Large-Scale Applications**. OR, 2018. [paper](https://doi.org/10.1287/opre.2018.1763). *Dimitris Bertsimas, Patrick Jaillet, Sébastien Martin*.
+3. **Online Vehicle Routing: The Edge of Optimization in Large-Scale Applications**. OR, 2018. [paper](https://doi.org/10.1287/opre.2018.1763). *Dimitris Bertsimas, Patrick Jaillet, Sébastien Martin*.
 
 > Challenges. With the emergence of ride-sharing companies that offer transportation on demand at a large scale and the increasing availability of corresponding demand data sets, new challenges arise to develop routing optimization algorithms that can solve massive problems in real time. 
 
@@ -471,7 +510,7 @@ Hay Lee, Ek Peng Chew, Haobin Li*. <font color=purple>@TAG real-time optimizatio
 
 > A classical way to solve these static vehicle-routing problems at a larger scale is the use of heuristics... Unfortunately, these heuristics are usually special purposed and have to be adapted to each particular new problem... In this paper, we were not able to successfully apply any of these algorithms because of the size of our problem and the very small time available for computations.
 
-8. **Challenges of Real-Time Decision Support**. In book Supporting Real Time Decision-Making, 2011. [paper](https://www.springer.com/gp/book/9781441974051). *Daniel J. Power*
+4. **Challenges of Real-Time Decision Support**. In book Supporting Real Time Decision-Making, 2011. [paper](https://www.springer.com/gp/book/9781441974051). *Daniel J. Power*
 
 > When evaluating implementation of these systems, managers need to consider and respond to three categories of continuing challenges: (1) technical, (2) organizational and (3) social/psychological.
 
@@ -481,72 +520,43 @@ Hay Lee, Ek Peng Chew, Haobin Li*. <font color=purple>@TAG real-time optimizatio
 
 >  Real time also means "near real time" in practice because there is always some latency between (a) the actual state change, (b) the reflection of that state change in data in one or more systems of record and (c) the availability of the changed data to decision makers. Real time is not the same for every decision task.
 
-9. **6 Best Practices for Real-Time Analytics**, Gartner, 2016. [article](https://www.gartner.com/smarterwithgartner/six-best-practices-for-real-time-analytics/).
+5. **6 Best Practices for Real-Time Analytics**, Gartner, 2016. [article](https://www.gartner.com/smarterwithgartner/six-best-practices-for-real-time-analytics/).
 
-10. **Plan Online, Learn Offline: Efficient Learning and Exploration via Model-Based Control**. Working paper, 2019. [paper](https://arxiv.org/abs/1811.01848). *Kendall Lowrey, Aravind Rajeswaran, Sham Kakade, Emanuel Todorov, Igor Mordatch*
 
-> We propose a plan online and learn offline (POLO) framework for the setting where an agent, with an internal model, needs to continually act and learn in the world. Our work builds on the synergistic relationship between local model-based control, global value function learning, and exploration.
-
-11. **Survey of multi-fidelity methods in uncertainty propagation, inference, and optimization**. SIAM REVIEW, 2019. [paper](https://epubs.siam.org/doi/pdf/10.1137/16M1082469). *Benjamin Peherstorfer, Karen Willcox, Max Gunzburger*
-
-> This work surveys multi-fidelity methods that accelerate the solution of outer-loop applications by combining high-fidelity and low-fidelity model evaluations, where the low-fidelity evaluations arise from an explicit low-fidelity model (e.g., a simplified physics approximation, a reduced model, a data-fit surrogate) that approximates the same output quantity as the high-fidelity model.
-
-12. **Faster Kriging: Facing High-Dimensional Simulators**. OR, 2020. [paper](https://doi.org/10.1287/opre.2019.1860). *Xuefei Lu, Alessandro Rudi, Emanuele Borgonovo, Lorenzo Rosasco*.
-
-> Kriging is one of the most widely used emulation methods in simulation. How- ever, memory and time requirements potentially hinder its application to data sets generated by high-dimensional simulators. We borrow from the machine learning literature to propose a new algorithmic implementation of kriging that, while preserving prediction accuracy, notably reduces time and memory requirements. The theoretical and computational foundations of the algorithm are provided. The work then reports results of extensive numerical experiments to compare the performance of the proposed algorithm against current kriging implementations, on simulators of increasing dimensionality. Findings show notable savings in time and memory requirements that allow one to handle inputs across more that 10,000 dimensions.
-
-13. **Rapid Discrete Optimization via Simulation with Gaussian Markov Random Fields**. INFORMS Journal on Computing, 2020. [paper](https://doi.org/10.1287/ijoc.2020.0971). *Mark Semelhago, Barry L. Nelson, Eunhye Song, Andreas Wächter*
-
-> In our setting, the output is stochastic, and the number of feasible solutions is huge, but individual replications of a solution may be relatively cheap compared with a deterministic computer experiment. In combination, the computational overhead for inference is no longer negligible compared with the simulation cost.
-
-> Our primary contribution is to greatly extend the reach of GMRF-based optimization by dramatically reducing the computational cost of inference.
-
-14. **Fully Sequential Procedures for Large-Scale Ranking-and-Selection Problems in Parallel Computing Environments**. OR, 2015. [paper](http://dx.doi.org/10.1287/opre.2015.1413). *Jun Luo, L. Jeff Hong, Barry L. Nelson, Yang Wu*
-
-> In this paper, we propose two types of fully sequential procedures that can be used in parallel computing environments. We call them vector-filling procedures and asymptotic parallel selection procedures, respectively. Extensive numerical experiments show that the proposed procedures can take advantage of multiple parallel processors and solve large-scale R&S problems.
-
-15. **Offline Simulation Online Application: A New Framework of Simulation-Based Decision Making**. Asia-Pacific Journal of Operational Research, 2019. [paper](https://doi.org/10.1142/S0217595919400153).
-
-> It is rarely used in making real-time decisions due to the long computation delay of executing simulation models. However, with the fast growth of computing capability, we have observed more and more works on reusing simulation efforts for repeated experiments with the help of data analytics tools, and the target of these works is to solve real-time decision problems.
-
-> With the fast growth of computing capability and with more and more data analytics tools, there are more and more recent works considering how to use complex simulation models and experiments to solve real-time decision problems....In this paper we summarize these works to a unified framework, which uses the offline simulation results on applications where online decisions need to be made. We call it the offline- simulation-online-application (OSOA) framework. The key to linking the offline simulation and online application are predictive models.
-
-> The OSOA framework, which treats simulation as a data generator, applies state-of-the-art analytics tools to build predictive models, and then uses the predictive models for real-time applications.
-
-> further research directions about OSOA
-> - Building new metamodeling techniques and theories in OSOA. As we have introduced in Sec. 2.1, the goal of metamodeling problems in the OSOA framework is different from that of classical metamodeling problems. In classical metamodeling problems, fitting accuracy is the most important criterion. However, in the OSOA framework, the metamodel (fitted surface) is used to make decisions, so the accuracy is not the only criterion. How to best support the decisions is the most important goal of the metamodeling in the OSOA framework. Therefore, building new metamodeling techniques and new theories under the OSOA framework are good research directions.
-> - Treating OSOA as a feedback loop. In the OSOA framework, the metamodels are often used repeatedly (with different observed values of the covariates). Real data are often observed after the decisions are made. Based on the real data and the simulated data, the simulation models need to be updated to capture the features of the stochastic system, e.g., better calibrating the model parameters and reducing model misspecifications. Therefore, how to handle these feedback loops becomes another interesting research direction.
-> - Dealing with high dimensional covariates. In many practical problems, the dimension of the covariates may be very high. For example in healthcare, a lot of information, such as the demographic information and gene information, may be collected for a patient. However, some diseases are only affected by a few of factors. That is, the effective dimension is low. In the OSOA framework, since we may repeat the simulation experiments and receive feedbacks regularly, we may utilize these information and some machine learning techniques to identify the effective dimensions. How to deal with high dimensional covariates and how to reduce dimensionality are interesting research directions in the OSOA framework.
-> - Embedding SO algorithms in OSOA. There are many efficient SO algorithms proposed in last two decades. An interesting research direction is to embed these algorithms to solve SO problems with covariates. Note that, in the OSOA framework, the problems of SO with covariates may have both high-dimensional decision variables and high-dimensional covariates. When designing the SO algorithms, these features need to be considered.
-
-16. **Knockout-Tournament Procedures for Large-Scale Ranking and Selection in Parallel Computing Environments**. Working paper, 2020. [paper](https://www.researchgate.net/publication/339200267_Knockout-Tournament_Procedures_for_Large-Scale_Ranking_and_Selection_in_Parallel_Computing_Environments). *Ying Zhong, L. Jeff Hong*
-
-> When using parallel computing environments, we argue that the existing stage-wise procedures and fully-sequential procedures are both inefficient, and we need a new framework that takes a holistic view at the total computation time, including the time spent on simulation, comparison, and communication. Stage-wise procedures were first proposed to handle physical experiments, and fully-sequential procedures were more suitable to handle computer experiments generated in a single processor. Using them directly in parallel computing environments for large-scale problems will cause either too many simulation observations or too many comparisons or too many communications among the processors. In this paper, we propose new R&S procedures that consider the total computation time and work well in parallel computing environments, especially commercial clouds.
-
-> We show that no matter whether the variances of the alternatives are known or not, our procedures can theoretically achieve the lowest growth rate on the expected total sample size with respect to the number of alternatives and thus are optimal in rate. 
-
-17. **Speeding Up Paulson’s Procedure for Large-Scale Problems Using Parallel Computing**. INFORMS Journal on Computing, 2021. [paper](https://doi.org/10.1287/ijoc.2020.1054)
-
-18. **Digital Twin Framework and Its Application to Power Grid Online Analysis**. CSEE JOURNAL OF POWER AND ENERGY SYSTEMS, 2019. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8779809). *Mike Zhou, Jianfeng Yan, Donghao Feng*
+6. **Digital Twin Framework and Its Application to Power Grid Online Analysis**. CSEE JOURNAL OF POWER AND ENERGY SYSTEMS, 2019. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8779809). *Mike Zhou, Jianfeng Yan, Donghao Feng*
 
 > Digital twin (DT) framework is introduced in the context of application for power grid online analysis. In the development process of a new power grid real-time online analysis system, an online analysis digital twin (OADT) has been implemented to realize the new online analysis architecture. 
 
 > A high-performance parallel computing approach has been implemented on the top of the virtual models.
 
-19. **Solving Myopia in Real-time Decision-making using Petri nets Models’ Knowledge for Service-oriented Manufacturing Systems**. IFAC Proceedings Volumes, 2010. [paper](https://doi.org/10.3182/20100701-2-PT-4011.00026). *Paulo Leitão, Joel Alves1, Ana I. Pereira*
-
-> This paper introduces a novel approach to the real-time decision-making in service-oriented manufacturing systems, addressing the myopia problem usually presented in such systems. 
-
-20. **The Myopic Property in Decision Models**. Decision Analysis, 2019. [paper](https://doi.org/10.1287/deca.2018.0384). *Manel Baucells, Rakesh K. Sarin*
-
-> the optimal decision strategy is obtained by considering the impact of the current decision on all future decisions... Instead, he may think of small chunks of the problem in isolation. It is intuitively obvious that such myopic strategy generally produces suboptimal choices (Rabin and Weizsacker 2009)...We examine de- cision situations and utility functions for which solving a sequence of problems in isolation is globally optimal.
 
 
-21. **The Bayesian Prophet: A Low-Regret Framework for Online Decision Making**. Management Science 67(3):1368-1391. https://doi.org/10.1287/mnsc.2020.3624
-Alberto Vera, Siddhartha Banerjee (2021) 
+### [Integration of Data](#content)
 
-> Broadly speaking, an online decision-making problem is defined by a current state and a set of actions, which together determine the next state as well as generate rewards. In Markov decision processes (MDPs), the rewards and state transitions are also affected by some random shock. Optimal policies for such problems are known only in some special cases when the underlying problem is sufficientlysimpleand knowledgeofthe generative model sufficiently detailed. For many problems of of interest, an MDP approach is infeasible for two reasons: (1) insufficiently detailed models of the generative process of the randomness and (2) the complexity of computing the optimal policy (the so-called “curse of dimensionality”). These shortcomings have inspired a long line of work on approximate dynamic programming. 
+1. **The Internet of Things and Information Fusion: Who Talks to Who?**. M&SOM, 2021. [paper](https://pubsonline.informs.org/doi/10.1287/msom.2020.0958). *Soroush Saghafian, Brian Tomlin, Stephan Billerc* <font color=purple>@TAG integration of data (interfirm); data quality; ownership</font>
 
+> Problem definition: <font color=green>@RQ Autonomous sensors connected through the internet of things (IoT) are deployed by different firms in the same environment. The sensors measure an important operating-condition state variable, but their measurements are noisy, so estimates are imperfect. Sensors can improve their own estimates by soliciting estimates from other sensors. The choice of which sensors to communicate with (target) is challenging because sensors (1) are constrained in the number of sensors they can target and (2) only have partial knowledge of how other sensors operate—that is, they do not know others’ underlying inference algorithms/models. We study the targeting problem, examine the evolution of interfirm sensor communication patterns, and explore what drives the patterns.</font>
+
+> Consider any given sensor $i$, and assume (without loss of generality) that it can select its target from two sensors: a high-quality sensor (labeled $h$) and a lower-quality sensor (labeled $l$). When should sensor $i$ target sensor $h$? When should it target sensor $l$? How does this choice depend on the initial state $s_0$?
+
+2. **In-situ AI: Towards Autonomous and Incremental Deep Learning for IoT Systems**, 2018 IEEE International Symposium on High Performance Computer Architecture. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8327001). *Mingcong Song; Kan Zhong; Jiaqi Zhang; Yang Hu; Duo Liu; Weigong Zhang; Jing Wang; Tao Li*
+
+> Rather than constantly moving a tremendous amount of raw data to the Cloud, it would be beneficial to leverage the emerging powerful IoT devices to perform the inference task.
+> - Two factors in the real IoT systems: data is dynamic and unlabeled. 
+
+> <font color=green>@RQ Nevertheless, the statically trained model could not efficiently handle the dynamic data in the real in-situ environments, which leads to low accuracy. Moreover, the big raw IoT data challenges the traditional supervised training method in the Cloud.</font>
+
+> We propose In-situ AI, the first Autonomous and Incremental computing framework and architecture for deep learning based IoT applications. We equip deep learning based IoT system with autonomous IoT data diagnosis (minimize data movement), and incremental and unsupervised training method (tackle the big raw IoT data generated in ever-changing in-situ environments).
+
+> The result shows:
+> - (1) a tradeoff exists between fast response time and energy-efficiency; 
+> - (2) latency and energy-efficiency are two key metrics for inference task, while energy-efficiency is the only design concern for the diagnosis task.
+
+3. **Application of IoT-Aided Simulation to Manufacturing Systems in Cyber-Physical System**. Machines, 2019. [paper](https://doi.org/10.3390/machines7010002). *Yifei Tan, Wenhe Yang, Kohtaroh Yoshida, Soemon Takakuwa*
+
+> <font color=green>@RQ Issues such as the reception of real-time data from the IoT, as well as the conversion and inputting of the data into a simulation model have not yet been completely solved. Even though some general roadmaps and frameworks have been proposed, it is still not clear what kind of data and information must be integrated.</font>
+
+> When constructing a DT, a specific framework to guide the process of extracting the necessary data from the physical system and a scheme for entering these data into the cyber-side simulation model are required.
 
 ## [Inter-operability](#content)
 

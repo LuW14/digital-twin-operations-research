@@ -8,5 +8,6 @@
         "plaintext"
     ],
     "spellright.statusBarIndicator": true,
-    "markdown.preview.typographer": true
+    "markdown.preview.typographer": true,
+    "spellright.recheckOnSave": true
 }
