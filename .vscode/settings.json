@@ -9,5 +9,8 @@
     ],
     "spellright.statusBarIndicator": true,
     "markdown.preview.typographer": true,
-    "spellright.recheckOnSave": true
+    "spellright.recheckOnSave": true,
+    "spellchecker.ignoreWordsList": [
+        "citealp"
+    ]
 }

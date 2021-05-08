@@ -43,7 +43,8 @@ We would like to maintain resources that discuss digital twins (DT) and the rela
 	<td>&emsp;&emsp;<a href=#parallel-computing>2.2.6 Parallel computing</a></td>
 </tr>
 <tr>
-	<td>&emsp;&emsp;<a href=#applications>2.2.7 Applications</a></td>
+	<td>&emsp;&emsp;<a href=#metamodeling>2.2.7 Metamodeling</a></td>
+	<td>&emsp;&emsp;<a href=#applications>2.2.8 Applications</a></td>
 </tr>
 <tr><td colspan="2">&emsp;<a href="#integration-of-data">Integration of data</a></td></tr>
 <tr><td colspan="2">&emsp;<a href="#inter-operability">Inter-operability</a></td></tr>
@@ -484,6 +485,25 @@ Hay Lee, Ek Peng Chew, Haobin Li*. <font color=purple>@TAG real-time optimizatio
 > We show that no matter whether the variances of the alternatives are known or not, our procedures can theoretically achieve the lowest growth rate on the expected total sample size with respect to the number of alternatives and thus are optimal in rate. 
 
 3. **Speeding Up Paulson’s Procedure for Large-Scale Problems Using Parallel Computing**. INFORMS Journal on Computing, 2021. [paper](https://doi.org/10.1287/ijoc.2020.1054)
+
+### [Metamodeling](#content)
+1. **Metamodel-Based Simulation Optimization**. Handbook in OR & MS, 2006. [paper](https://doi.org/10.1016/S0927-0507(06)13018-2). *Russell R. Barton, Martin Meckesheimer*
+
+> A metamodel, or model of the simulation model, simplifies the simulation optimization in two ways: the metamodel response is deterministic rather than stochastic, and the run times are generally much shorter than the original simulation. 
+
+2. **Kriging metamodeling in simulation: A review**. European Journal of Operational Research, 2009. [paper](https://doi.org/10.1016/j.ejor.2007.10.013). *Jack P.C.Kleijnen*.
+
+3. **Better simulation metamodeling: The why, what, and how of stochastic kriging**. Proceedings of the 2009 Winter Simulation Conference, 2009. [paper](https:/
+/ieeexplore.ieee.org/document/5429320). *Jeremy Staum*.
+
+4. **Stochastic Kriging for Simulation Metamodeling**. OR, 2010. [paper](https://doi.org/10.1287/opre.1090.0754). *Bruce Ankenman, Barry L. Nelson, Jeremy Staum*.
+
+5. **Multilevel Monte Carlo Metamodeling**. OR, 2017. [paper](https://doi.org/10.1287/opre.2017.1607). *Imry Rosenbaum, Jeremy Staum*
+
+6. **Gaussian Markov Random Fields for Discrete Optimization via Simulation: Framework and Algorithms**. OR, 2019. [paper](https://doi.org/10.1287/opre.2018.1778). *Peter L. Salemi, Eunhye Song, Barry L. Nelson, Jeremy Staum*
+
+7. **Generalized Integrated Brownian Fields for Simulation Metamodeling**. OR, 2019. [paper](https://doi.org/10.1287/opre.2018.1804). *Peter Salemi, Jeremy Staum, Barry L. Nelson*.
+
 
 ### [Applications](#content)
 1. **A Real-Time Multiobjective Optimization Algorithm for Discovering Driving Strategies**. TS, 2018. [paper](https://doi.org/10.1287/trsc.2018.0872). *Erik Dovgan, Matjaž Gams, Bogdan Filipič*. 
