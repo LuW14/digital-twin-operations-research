@@ -20,7 +20,7 @@
 
 ## Technology road map
 
-- Stage 1: What-if simulation
+- Stage 1: what-if simulation
 - Stage 2: real-time
 - Stage 3: 
 - Stage 4: 
