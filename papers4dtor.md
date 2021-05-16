@@ -20,16 +20,24 @@ We would like to maintain resources that discuss digital twins (DT) and the rela
 *2021-05-05:*
 - Working on the research question and related research on the real-time decision-making issue.
 
+*2021-05-16:*
+- Update related research on solving problems in real-time
+- Working on the research question and related research on building digital models.
+
 ## [Content](#content)
 
 <table>
 <tr><td colspan="2"><a href="#research-papers-in-dt">1. Research papers in DT</a></td></tr> 
 <tr><td colspan="2">&emsp;<a href="#concept-and-survey">1.1 Concept development and survey</a></td></tr>
-
 <tr><td colspan="2"><a href="#industry-reports-in-dt">2. Industry reports in DT</a></td></tr> 
 <tr><td colspan="2"><a href="#related-research-papers-in-or">3. Related research papers in OR</a></td></tr>
-<tr><td colspan="2">&emsp;<a href="#survey">2.1 Survey</a></td></tr>
-<tr><td colspan="2">&emsp;<a href="#real-time-decision-making">2.2 Real-time decision-making</a></td></tr>
+<tr><td colspan="2">&emsp;<a href="#survey">2.0 Survey</a></td></tr>
+<tr><td colspan="2">&emsp;<a href="#building-digital-models">2. 1 Building digital models</a></td></tr>
+<tr>
+	<td>&emsp;&emsp;<a href=#integration-of-data>2.1.x Integration of data</a></td>
+	<td>&emsp;&emsp;<a href=#sychronization-frequency>2.1.x Synchronization frequency</a></td>
+</tr>
+<tr><td colspan="2">&emsp;<a href="#solving-problems-in-real-time">2.2 Solving problems in real-time</a></td></tr>
 <tr>
 	<td>&emsp;&emsp;<a href=#symbiotic-simulation>2.2.1 Symbiotic simulation</a></td>
 	<td>&emsp;&emsp;<a href=#online-problems>2.2.2 Online problems</a></td>
@@ -46,10 +54,11 @@ We would like to maintain resources that discuss digital twins (DT) and the rela
 	<td>&emsp;&emsp;<a href=#metamodeling>2.2.7 Metamodeling</a></td>
 	<td>&emsp;&emsp;<a href=#applications>2.2.8 Applications</a></td>
 </tr>
-<tr><td colspan="2">&emsp;<a href="#integration-of-data">Integration of data</a></td></tr>
-<tr><td colspan="2">&emsp;<a href="#inter-operability">Inter-operability</a></td></tr>
-<tr><td colspan="2">&emsp;<a href="#synchronization-frequency">Synchronization frequency</a></td></tr>
+<tr><td colspan="2">&emsp;<a href="#dt-management">2.3 DT management</a></td></tr>
 <tr>
+	<td>&emsp;&emsp;<a href=#stakeholder-management>x.x.x stakeholder management</a></td>
+	<td>&emsp;&emsp;<a href=#inter-operability>x.x.x inter-operability</a></td>
+</tr>
 </table>
 
 
@@ -295,7 +304,7 @@ Publications Office of the European Union, 2020. [report](https://op.europa.eu/e
 
 ## [Related research papers in OR](#content)
 
-### [Survey](#content)
+## [Survey](#content)
 1. **Industry 4.0: Opportunities and Challenges for Operations Management**. M&SOM, 2019. [paper](https://pubsonline.informs.org/doi/pdf/10.1287/msom.2019.0796)
 *Tava Lennon Olsen, Brian Tomlin*
 >The crucial aspect here is the “live setting”; that is, it is not simply a static digital representation of an object before use, but it is a dynamic representation of the object that evolves in use. Real-time sensor measurements across a range of elements enable a system-level representation of a complex asset (e.g., a turbine) or indeed, an entire production system. The physical world has a dynamically coupled representation in the digital world, and this data-rich environment can enable operations managers to uncover previously unknown relationships between system conditions and outcomes. This understanding can drive continuous improvement in defect reduction, uptime, and other key performance indicators of the existing system while also generating improved manufacturability design ideas for future products and factories. <font color=purple>@TAG real-time optimization; </font>
@@ -334,9 +343,86 @@ Publications Office of the European Union, 2020. [report](https://op.europa.eu/e
 > **Organizational Sense-making in an Algorithmic World:** In this regard, cutting-edge techniques such as machine learning produce an additional qualitative shift in how data are used—from representing data to improving human perception of phenomena to prediction, which may or may not involve or be subject to human comprehension. There is a delicate balance that managers may have to strike in this area: they may need to let go of the need to understand in order to satisfy the need to predict. Yet, the risks of ethically repellant outcomes and regulatory constraints and the desire to satisfy sheer human curiosity make this balancing act far from trivial. Theorists may well soon face similar challenges (Puranam 2019). In the meantime, as algorithmic representation becomes ever more effective while becoming ever less comprehensible, the rise of new organizational roles—like *Data Storyteller*—may not be as surprising as it initially appears. As Weick suggested, a comprehensible and motivating story may have value independent of its veracity (Weick 1995). In a “mixed economy” of algorithmic decision analysis but ultimately human decision responsibility, compelling and clear narratives may become more, not less, important. <font color=purple>@TAG integration of intelligence and human</font>
 
 
+4. **Soft OR and Practice: The Contribution of the Founders of Operations Research**. Operations Research, 2021. [paper](https://doi.org/10.1287/opre.2020.2051). *Robert G. Dyson, Frances A. O’Brien, Devan B. Shah*.
+<font color=purple>@TAG modeling</font>
+> The motivation for the development of soft OR stemmed from a concern that hard (quantitative) OR could not solve wicked (i.e., ill-structured, complex) problems (Rittel and Webber 1973) or engage effectively with swamp conditions—messy, confusing problems(Scho ̈n1987)
+
+> A set of characteristics of soft OR
+> - An ill-defined problem situation (context)
+> - The existence of multiple actors or stakeholders with different perspectives and conflicting objectives (context)
+> - A high degree of uncertainty, intangibles, and qualitative and limited quantitative data (context)
+> - Engagement with and interactions between stake- holders to seek agreement on the nature of the problem and of learning and on actions. This may involve the use of facilitated workshops (real or virtual) (process)
+> - Concern for process issues/procedural rationality (process)
+> - The use of models as a focus for the discussions that are transparent and understandable. These are typically diagrammatic models such as causal maps, cognitive maps, influence diagrams, decision graphs, and rich pictures (content)
+
+> ... the emergence of mixed soft and hard modelling indicates that hard models can have an important decision support role in such contexts.
+
+> Hence a vicious circle can develop where some academics know more and more about less and less and can become dis- connected from the real world. (This issue has been a concern in the Academy of Management for some years; see, e.g., Vishwanath et al. 2017.) The potential danger of this trend is that much of OR could become ossified, focusing mainly on an historical problem set that has increasingly limited economic or social impact thus denying its heritage.
+
+5. **Optimization problems for machine learning: A survey**. EJOR, 2021. [paper](https://doi.org/10.1016/j.ejor.2020.08.045). *Claudio Gambella, Bissan Ghaddar, Joe Naoum-Sawaya*. 
+
+6. **Machine learning for combinatorial optimization: A methodological tour d’horizon**. EJOR, 2020. [paper](https://doi.org/10.1016/j.ejor.2020.07.063). *Yoshua Bengio, Andrea Lodi, Antoine Prouvost*
+
+> Challenges
+> - Data generation. Collecting data (for example instances of optimization problems) is a subtle task. In other cases, i.e., when we are not targeting a specific application for which we would have historical data, how can we proactively train a policy for problems that we do not yet know of? 
+
+7. **Parallel computational optimization in operations research: A new integrative framework, literature review and research directions**. EJOR, 2020. [paper](https://doi.org/10.1016/j.ejor.2019.11.033). *Guido Schryen*.
+
+8. **Distributed simulation: state-of-the-art and potential for operational research**. EJOR, 2019. [paper](https://doi.org/10.1016/j.ejor.2018.04.032). *Simon J. E. Taylor*.
+
+9. **Reviewing the role of stakeholders in Operational Research: A stakeholder theory perspective**. EJOR, 2017. [paper](http://dx.doi.org/10.1016/j.ejor.2017.03.079). *Vincent de Gooyert, Etiënne Rouwette, Hans van Kranenburg, Edward Freeman*.
+
+10. **Hybrid simulation modelling in operational research: A state-of-the-art review**. EJOR, 2018. [paper](https://doi.org/10.1016/j.ejor.2018.10.025). *Sally C. Brailsford , Tillal Eldabi , Martin Kunc , Navonil Mustafee , Andres F. Osorio*. 
+
+11. **The characteristics of problem structuring methods: A literature review**. EJOR, 2019. [paper](https://doi.org/10.1016/j.ejor.2018.05.003). *Chris M. Smith, Duncan Shaw*
+
+12. **Algorithm runtime prediction: Methods & evaluation**. Artificial Intelligence, 2014. [paper](http://dx.doi.org/10.1016/j.artint.2013.10.003). *Frank Hutter , Lin Xu, Holger H. Hoos, Kevin Leyton-Brown*.
+
+## [Building digital models](#content)
+
+### [Synchronization frequency](#content)
+1. **An Introduction to Event-triggered and Self-triggered Control**. IEEE 51st IEEE Conference on Decision and Control (CDC), 2012. [paper](https://ieeexplore.ieee.org/document/6425820). *W.P.M.H. Heemels, K.H. Johansson, P. Tabuada*
+
+> It is desirable in these systems to limit the sensor and control computation and/or communication to instances when the system needs attention. However, classical sampled-data control is based on performing sensing and actuation periodically rather than when the system needs attention.
+
+2. **Challenges of Real-Time Decision Support**. In book Supporting Real Time Decision-Making, 2011. [paper](https://www.springer.com/gp/book/9781441974051). *Daniel J. Power*
+
+>  Many strategic decisions do not need real-time data, but decision makers may benefit from improved rich media, real-time communications. Choosing when and how to deploy real-time decision support is an important decision that creates opportunities and challenges for managers and organization stakeholders. <font color=purple>@TAG synchronization frequency</font>
+
+> When response time or delay in retrieving data impacts decision-making timeliness and effectiveness, managers are faced with a trade-off between technological expenditures, decision quality, and decision risk.
+
+>  Real time also means ‘near real time’ in practice because there is always some latency between (a) the actual state change, (b) the reflection of that state change in data in one or more systems of record and (c) the availability of the changed data to decision makers. Real time is not the same for every decision task. ((d) the availability of the best decisions, (e) the reflection of that best decisions in actuators (e) the actual state change given the decisions)
+
+### [Integration of Data](#content)
+
+1. **The Internet of Things and Information Fusion: Who Talks to Who?**. M&SOM, 2021. [paper](https://pubsonline.informs.org/doi/10.1287/msom.2020.0958). *Soroush Saghafian, Brian Tomlin, Stephan Billerc* <font color=purple>@TAG integration of data (interfirm); data quality; ownership</font>
+
+> Problem definition: <font color=green>@RQ Autonomous sensors connected through the internet of things (IoT) are deployed by different firms in the same environment. The sensors measure an important operating-condition state variable, but their measurements are noisy, so estimates are imperfect. Sensors can improve their own estimates by soliciting estimates from other sensors. The choice of which sensors to communicate with (target) is challenging because sensors (1) are constrained in the number of sensors they can target and (2) only have partial knowledge of how other sensors operate—that is, they do not know others’ underlying inference algorithms/models. We study the targeting problem, examine the evolution of interfirm sensor communication patterns, and explore what drives the patterns.</font>
+
+> Consider any given sensor $i$, and assume (without loss of generality) that it can select its target from two sensors: a high-quality sensor (labeled $h$) and a lower-quality sensor (labeled $l$). When should sensor $i$ target sensor $h$? When should it target sensor $l$? How does this choice depend on the initial state $s_0$?
+
+2. **In-situ AI: Towards Autonomous and Incremental Deep Learning for IoT Systems**, 2018 IEEE International Symposium on High Performance Computer Architecture. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8327001). *Mingcong Song; Kan Zhong; Jiaqi Zhang; Yang Hu; Duo Liu; Weigong Zhang; Jing Wang; Tao Li*
+
+> Rather than constantly moving a tremendous amount of raw data to the Cloud, it would be beneficial to leverage the emerging powerful IoT devices to perform the inference task.
+> - Two factors in the real IoT systems: data is dynamic and unlabeled. 
+
+> <font color=green>@RQ Nevertheless, the statically trained model could not efficiently handle the dynamic data in the real in-situ environments, which leads to low accuracy. Moreover, the big raw IoT data challenges the traditional supervised training method in the Cloud.</font>
+
+> We propose In-situ AI, the first Autonomous and Incremental computing framework and architecture for deep learning based IoT applications. We equip deep learning based IoT system with autonomous IoT data diagnosis (minimize data movement), and incremental and unsupervised training method (tackle the big raw IoT data generated in ever-changing in-situ environments).
+
+> The result shows:
+> - (1) a tradeoff exists between fast response time and energy-efficiency; 
+> - (2) latency and energy-efficiency are two key metrics for inference task, while energy-efficiency is the only design concern for the diagnosis task.
+
+3. **Application of IoT-Aided Simulation to Manufacturing Systems in Cyber-Physical System**. Machines, 2019. [paper](https://doi.org/10.3390/machines7010002). *Yifei Tan, Wenhe Yang, Kohtaroh Yoshida, Soemon Takakuwa*
+
+> <font color=green>@RQ Issues such as the reception of real-time data from the IoT, as well as the conversion and inputting of the data into a simulation model have not yet been completely solved. Even though some general roadmaps and frameworks have been proposed, it is still not clear what kind of data and information must be integrated.</font>
+
+> When constructing a DT, a specific framework to guide the process of extracting the necessary data from the physical system and a scheme for entering these data into the cyber-side simulation model are required.
 
 
-## [Real-time Decision-making](#content)
+
+## [Solving problems in Real-time](#content)
 
 ### [Symbiotic Simulation](#content)
 
@@ -393,7 +479,7 @@ Publications Office of the European Union, 2020. [report](https://op.europa.eu/e
 
 3. **The Myopic Property in Decision Models**. Decision Analysis, 2019. [paper](https://doi.org/10.1287/deca.2018.0384). *Manel Baucells, Rakesh K. Sarin*
 
-> the optimal decision strategy is obtained by considering the impact of the current decision on all future decisions... Instead, he may think of small chunks of the problem in isolation. It is intuitively obvious that such myopic strategy generally produces suboptimal choices (Rabin and Weizsacker 2009)...We examine de- cision situations and utility functions for which solving a sequence of problems in isolation is globally optimal.
+> the optimal decision strategy is obtained by considering the impact of the current decision on all future decisions... Instead, he may think of small chunks of the problem in isolation. It is intuitively obvious that such myopic strategy generally produces suboptimal choices (Rabin and Weizsacker 2009)...We examine decision situations and utility functions for which solving a sequence of problems in isolation is globally optimal.
 
 4. **The Bayesian Prophet: A Low-Regret Framework for Online Decision Making**. Management Science 67(3):1368-1391. https://doi.org/10.1287/mnsc.2020.3624
 Alberto Vera, Siddhartha Banerjee (2021) 
@@ -403,6 +489,8 @@ Alberto Vera, Siddhartha Banerjee (2021)
 5. **Solving Myopia in Real-time Decision-making using Petri nets Models’ Knowledge for Service-oriented Manufacturing Systems**. IFAC Proceedings Volumes, 2010. [paper](https://doi.org/10.3182/20100701-2-PT-4011.00026). *Paulo Leitão, Joel Alves1, Ana I. Pereira*
 
 > This paper introduces a novel approach to the real-time decision-making in service-oriented manufacturing systems, addressing the myopia problem usually presented in such systems. 
+
+6. **Generalized Online Routing: New Competitive Ratios, Resource Augmentation, and Asymptotic Analyses**. Operations Research, 2008. [paper](https://doi.org/10.1287/opre.1070.0450). *Patrick Jaillet, Michael R. Wagner*.
 
 ### [Simulation optmization](#content)
 1. **Optimization via Simulation Over Discrete Decision Variables.** In INFORMS TutORials in Operations Research, 2010. [paper](https://doi.org/10.1287/educ.1100.0069). *Barry L. Nelson*
@@ -549,36 +637,16 @@ Hay Lee, Ek Peng Chew, Haobin Li*. <font color=purple>@TAG real-time optimizatio
 
 > A high-performance parallel computing approach has been implemented on the top of the virtual models.
 
+7. **Data-Driven Appointment-Scheduling Under Uncertainty: The Case of an Infusion Unit in a Cancer Center.**. Management Science, 2020. [paper](https://doi.org/10.1287/mnsc.2018.3218). *Avishai Mandelbaum, Petar Momčilović, Nikolaos Trichakis, Sarah Kadish, Ryan Leib, Craig A. Bunnell*
+
+> In reality, there exists a significant discrepancy between the planned and actual operations. .. This mismatch can be traced back to the aforementioned assumptions of deterministic service times and punctuality - assumptions routinely made in appointment scheduling implementations, which are capable of handling large-scale operations that involve hundreds of servers and hundreds of customers.
+
+> It (Actual Durations of Infusion Treatments Scheduled for Two Hours) was compiled using high-resolution data from a real-time locating system (RTLS) deployed at DFCI.
+
+> RTLS data from the eight clinical floors were “synchronized” with appointment book data, as well as data from the in-house pharmacy. Having access to all these logs enables us to accurately determine not only locations of patients but also the activities in which they are engaged.
 
 
-### [Integration of Data](#content)
-
-1. **The Internet of Things and Information Fusion: Who Talks to Who?**. M&SOM, 2021. [paper](https://pubsonline.informs.org/doi/10.1287/msom.2020.0958). *Soroush Saghafian, Brian Tomlin, Stephan Billerc* <font color=purple>@TAG integration of data (interfirm); data quality; ownership</font>
-
-> Problem definition: <font color=green>@RQ Autonomous sensors connected through the internet of things (IoT) are deployed by different firms in the same environment. The sensors measure an important operating-condition state variable, but their measurements are noisy, so estimates are imperfect. Sensors can improve their own estimates by soliciting estimates from other sensors. The choice of which sensors to communicate with (target) is challenging because sensors (1) are constrained in the number of sensors they can target and (2) only have partial knowledge of how other sensors operate—that is, they do not know others’ underlying inference algorithms/models. We study the targeting problem, examine the evolution of interfirm sensor communication patterns, and explore what drives the patterns.</font>
-
-> Consider any given sensor $i$, and assume (without loss of generality) that it can select its target from two sensors: a high-quality sensor (labeled $h$) and a lower-quality sensor (labeled $l$). When should sensor $i$ target sensor $h$? When should it target sensor $l$? How does this choice depend on the initial state $s_0$?
-
-2. **In-situ AI: Towards Autonomous and Incremental Deep Learning for IoT Systems**, 2018 IEEE International Symposium on High Performance Computer Architecture. [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8327001). *Mingcong Song; Kan Zhong; Jiaqi Zhang; Yang Hu; Duo Liu; Weigong Zhang; Jing Wang; Tao Li*
-
-> Rather than constantly moving a tremendous amount of raw data to the Cloud, it would be beneficial to leverage the emerging powerful IoT devices to perform the inference task.
-> - Two factors in the real IoT systems: data is dynamic and unlabeled. 
-
-> <font color=green>@RQ Nevertheless, the statically trained model could not efficiently handle the dynamic data in the real in-situ environments, which leads to low accuracy. Moreover, the big raw IoT data challenges the traditional supervised training method in the Cloud.</font>
-
-> We propose In-situ AI, the first Autonomous and Incremental computing framework and architecture for deep learning based IoT applications. We equip deep learning based IoT system with autonomous IoT data diagnosis (minimize data movement), and incremental and unsupervised training method (tackle the big raw IoT data generated in ever-changing in-situ environments).
-
-> The result shows:
-> - (1) a tradeoff exists between fast response time and energy-efficiency; 
-> - (2) latency and energy-efficiency are two key metrics for inference task, while energy-efficiency is the only design concern for the diagnosis task.
-
-3. **Application of IoT-Aided Simulation to Manufacturing Systems in Cyber-Physical System**. Machines, 2019. [paper](https://doi.org/10.3390/machines7010002). *Yifei Tan, Wenhe Yang, Kohtaroh Yoshida, Soemon Takakuwa*
-
-> <font color=green>@RQ Issues such as the reception of real-time data from the IoT, as well as the conversion and inputting of the data into a simulation model have not yet been completely solved. Even though some general roadmaps and frameworks have been proposed, it is still not clear what kind of data and information must be integrated.</font>
-
-> When constructing a DT, a specific framework to guide the process of extracting the necessary data from the physical system and a scheme for entering these data into the cyber-side simulation model are required.
-
-## [Inter-operability](#content)
+### [Inter-operability](#content)
 
 1. **Learning to Approximate Industrial Problems by Operations Research Classic Problems**. OR, 2021. [paper](https://doi.org/10.1287/opre.2020.2094). *Axel Parmentier* <font color=purple>@TAG inter-operability</font>
 
@@ -587,16 +655,3 @@ Hay Lee, Ek Peng Chew, Haobin Li*. <font color=purple>@TAG real-time optimizatio
 > Methods: We introduce a machine learning for operations research paradigm to build efficient heuristics for such variants: use a machine learning predictor to turn an instance of the variant into an instance of the well-known problem, then solve the instance of the well-known problem, and finally retrieve a solution of the variant from the solution of the well-known problem. This paradigm requires learning the predictor that transforms an instance of the variant into an instance of the well-known problem. We introduce a structured learning methodology to learn that predictor.
 
 2. **A Model-Driven Approach to Interoperability Between Simulation and Optimization for Production and Logistics Systems**. NIST, 2021. [paper](https://doi.org/10.6028/NIST.IR.8326). *Timothy Sprock*
-
-## [Synchronization frequency](#content)
-1. **An Introduction to Event-triggered and Self-triggered Control**. IEEE 51st IEEE Conference on Decision and Control (CDC), 2012. [paper](https://ieeexplore.ieee.org/document/6425820). *W.P.M.H. Heemels, K.H. Johansson, P. Tabuada*
-
-> It is desirable in these systems to limit the sensor and control computation and/or communication to instances when the system needs attention. However, classical sampled-data control is based on performing sensing and actuation periodically rather than when the system needs attention.
-
-2. **Challenges of Real-Time Decision Support**. In book Supporting Real Time Decision-Making, 2011. [paper](https://www.springer.com/gp/book/9781441974051). *Daniel J. Power*
-
->  Many strategic decisions do not need real-time data, but decision makers may benefit from improved rich media, real-time communications. Choosing when and how to deploy real-time decision support is an important decision that creates opportunities and challenges for managers and organization stakeholders. <font color=purple>@TAG synchronization frequency</font>
-
-> When response time or delay in retrieving data impacts decision-making timeliness and effectiveness, managers are faced with a trade-off between technological expenditures, decision quality, and decision risk.
-
->  Real time also means ‘near real time’ in practice because there is always some latency between (a) the actual state change, (b) the reflection of that state change in data in one or more systems of record and (c) the availability of the changed data to decision makers. Real time is not the same for every decision task. ((d) the availability of the best decisions, (e) the reflection of that best decisions in actuators (e) the actual state change given the decisions)
