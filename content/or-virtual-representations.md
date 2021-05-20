@@ -2,9 +2,13 @@
 
 <table>
 <tr><td colspan="2"><a href="#related-research-papers-in-or">3. Related research papers in OR</a></td></tr>
-<tr><td colspan="2">&emsp;<a href="#building-digital-models">3. 1 Building virtual representations</a></td></tr>
+<tr><td colspan="2">&emsp;<a href="#building-digital-models">3. 1 Building digital models</a></td></tr>
 <tr>
-	<td>&emsp;&emsp;<a href=#quantitative-modeling>3.1.x Quantitative modeling approaches</a></td><td>&emsp;&emsp;<a href=#mixed-quantitative-and-qualitative-modeling>3.1.x Mixed quantitative and qualitative modeling approaches</a></td>
+	<td>&emsp;&emsp;<a href=#quantitative-modeling>3.1.x Quantitative modeling approaches</a></td>
+	<td>&emsp;&emsp;<a href=#mixed-quantitative-and-qualitative-modeling>3.1.x Mixed quantitative and qualitative modeling approaches</a></td>
+</tr>
+<tr>
+	<td>&emsp;&emsp;<a href=#automatically-generating-simulation-models>3.1.x Automatically generating simulation models</a></td>
 </tr>
 </table>
 
@@ -100,6 +104,24 @@ John D. Sterman*.
 
 > Hence a vicious circle can develop where some academics know more and more about less and less and can become dis- connected from the real world. (This issue has been a concern in the Academy of Management for some years; see, e.g., Vishwanath et al. 2017.) The potential danger of this trend is that much of OR could become ossified, focusing mainly on an historical problem set that has increasingly limited economic or social impact thus denying its heritage.
 
+3. **Combining problem structuring methods with simulation: The philosophical and practical challenges**. Discrete-Event Simulation and System Dynamics for Management Decision Making, Chapter 4, 2014. [paper](https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781118762745). *Kathy Kotiadis and John Mingers*.
+
+4. **Problem structuring methods in action**. EJOR, 2004. [paper](https://doi.org/10.1016/S0377-2217(03)00056-0). *John Mingers, Jonathan Rosenhead*.
+
+### [Automatically generating simulation models](#content)
+1. **A Survey on Automatic Model Generation for Material Flow Simulation in Discrete Manufacturing**. 52nd CIRP Conference on Manufacturing Systems, 2019. [paper](https://doi.org/10.1016/j.procir.2019.03.022). *Heiner Reinhardt, Marek Weber, Matthias Putz*.
+
+2. **Challenges for the Automatic Generation of Simulation Models for Production Systems**. 2010 International Simulation Multiconference / Summer Computer Simulation Conference, SCSC. [paper](https://www.db-thueringen.de/servlets/MCRFileNodeServlet/dbt_derivate_00022287/SCSC-10_S445-449.pdf). *Bergmann, Sören; Strassburger, Steffen*
+
+3. **Trends in Automatic Composition of Structures for Simulation Models in Production and Logistics**. WSC, 2019. [paper](https://ieeexplore.ieee.org/document/9004959). *Sigrid Wenzel; Jana Stolipin; Jakob Rehof; Jan Winkels*
+
+4. **Applying model-reconstruction by exploring MES and PLC data for simulation support of production systems**. WSC, 2012. [paper](https://ieeexplore.ieee.org/document/6465069). *András Pfeiffer; Botond Kádár; Gergely Popovics; Csaba Kardos; Zoltán Vén; Lőrinc Kemény; László Monostori*.
+
+5. **Automatic Simulation Model Generation Based on PLC Codes and MES Stored Data**. Procedia CIRP, 2012. [paper](https://doi.org/10.1016/j.procir.2012.07.013). *G.Popovics, A. Pfeiffer, B.Kádár, Z. Vén, L. Kemény, L. Monostori*
+
+6. **Feature Article: Optimization for simulation: Theory vs. Practice**. INFORMS Journal on Computing, 2002. [paper](https://doi.org/10.1287/ijoc.14.3.192.113). *Michael C. Fu*.
+
+7. **An approach to Determine Simulation Model Complexity**. Procedia CIRP, 2016. [paper](https://doi.org/10.1016/j.procir.2016.07.072). *Gergely Popovics, László Monostori*.
 
 
 ## [Supporting data] - methods and difficulties
