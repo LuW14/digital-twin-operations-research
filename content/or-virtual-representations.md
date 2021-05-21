@@ -124,7 +124,11 @@ John D. Sterman*.
 7. **An approach to Determine Simulation Model Complexity**. Procedia CIRP, 2016. [paper](https://doi.org/10.1016/j.procir.2016.07.072). *Gergely Popovics, László Monostori*.
 
 
-## [Supporting data] - methods and difficulties
+## [Combining supporting data](#content)
+
+1. **Multisensor data fusion: A review of the state-of-the-art**. Information Fusion, 2013. [paper](https://doi.org/10.1016/j.inffus.2011.08.001). *Bahador Khaleghi, Alaa Khamis, Fakhreddine O.Karray, Saiedeh N.Razavi*
+
+2. **Data aggregation mechanisms in the Internet of things: A systematic review of the literature and recommendations for future research**. Journal of Network and Computer Applications, 2017. [paper](https://doi.org/10.1016/j.jnca.2017.08.006). *Behrouz Pourghebleh, Nima Jafari Navimipour*.
 
 1. **The Internet of Things and Information Fusion: Who Talks to Who?**. M&SOM, 2021. [paper](https://pubsonline.informs.org/doi/10.1287/msom.2020.0958). *Soroush Saghafian, Brian Tomlin, Stephan Billerc* <font color=purple>@TAG integration of data (interfirm); data quality; ownership</font>
 
