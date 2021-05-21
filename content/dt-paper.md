@@ -169,6 +169,8 @@ Technology & Processing Roadmap - TA11**. NASA, 2010. [report](https://www.nasa.
 
 > Following this analogy, DT may not be the right choice if the problem at hand has a very procedural solution, or if it can be solved in a functional way.
 
+30. **Digital twin – Proof of concept**. Manufacturing Letters, 2018. [paper](https://doi.org/10.1016/j.mfglet.2018.02.006). *Sebastian Haag, Reiner Anderl*
+
 ## [Industry reports in DT](#content)
 1. **Digital Twin Consortium Defines Digital Twin**. The Digital Twin Consortium, 2020. [article](https://blog.digitaltwinconsortium.org/2020/12/digital-twin-consortium-defines-digital-twin.html)
 
