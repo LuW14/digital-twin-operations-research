@@ -171,6 +171,18 @@ Technology & Processing Roadmap - TA11**. NASA, 2010. [report](https://www.nasa.
 
 30. **Digital twin – Proof of concept**. Manufacturing Letters, 2018. [paper](https://doi.org/10.1016/j.mfglet.2018.02.006). *Sebastian Haag, Reiner Anderl*
 
+31. **Combining Simulation and Machine Learning as Digital Twin for the Manufacturing of Overmolded Thermoplastic Composites**. Journal of Manufacturing and Materials Processing, 2020. [paper](https://doi.org/10.3390/jmmp4030092). *André Hürkamp et al.*
+
+32. **An architecture of an Intelligent Digital Twin in a Cyber-Physical Production System**. [paper](https://doi.org/10.1515/auto-2019-0039). *B. Ashtari Talkhestani et al.*
+
+> There lacks, however, a clear, encompassing architecture covering necessary components of a Digital Twin to realize various use cases in an intelligent automation system.
+
+> In the opinion of the authors, a Digital Twin requires three main characteristics: synchronization with the real asset, active data acquisition from the real environment and the ability of simulation
+
+> To dynamically synchronize the Digital Twin with the physical asset throughout the entire lifecycle, an element is needed to understand and manage all models and data. Accordingly, the DT model comprehension in the architecture fulfills this purpose by storing information of the interdisciplinary models within the DT and its relations to other DTs. The DT model comprehension realizes a standardized semantic description of models, data and services for a uniform understanding within the DT and be- tween DTs.
+
+> 
+
 ## [Industry reports in DT](#content)
 1. **Digital Twin Consortium Defines Digital Twin**. The Digital Twin Consortium, 2020. [article](https://blog.digitaltwinconsortium.org/2020/12/digital-twin-consortium-defines-digital-twin.html)
 
