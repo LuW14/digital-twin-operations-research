@@ -15,6 +15,8 @@
 
 ## [Managing DTs](#content)
 
+Servitization; monetization
+
 9. **Reviewing the role of stakeholders in Operational Research: A stakeholder theory perspective**. EJOR, 2017. [paper](http://dx.doi.org/10.1016/j.ejor.2017.03.079). *Vincent de Gooyert, Etiënne Rouwette, Hans van Kranenburg, Edward Freeman*.
 
 <font color=purple>@TAG ownership; stakeholder management</font>
@@ -47,6 +49,8 @@
 > This study presents an analysis of the impact of the GDPR on new technology venture investment in the EU.
 
 > B2B deals, in comparison, did not significantly change after the GDPR’s enactment but decreased by 10.8% following its rollout. The difference between B2C and B2B ventures is potentially because consumer-facing products have more expo- sure to the regulation, particularly to its requirements concerning individual users (e.g., opt-in or legitimate interest, data management, control, and processing violations, with potential fines per violation).
+
+2. **Against Classification Attacks: A Decision Tree Pruning Approach to Privacy Protection in Data Mining**. Operations Research, 2009. [paper](https://doi.org/10.1287/opre.1090.0702). *Xiao-Bai Li, Sumit Sarkar*
 
 ### [V&V and trust issue]
 
@@ -97,3 +101,4 @@
 > Optimal Prescriptive Tress
 > - a decision tree that, in each leaf, prescribes a common treatment for all samples that are assigned to that leaf of the tree
 > - in each leaf, we fit a linear regression model for each treatment using only the samples in that leaf that received the corresponding treatment. 
+
