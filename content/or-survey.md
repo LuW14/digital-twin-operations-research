@@ -46,6 +46,8 @@
 
 > **Organizational Sense-making in an Algorithmic World:** In this regard, cutting-edge techniques such as machine learning produce an additional qualitative shift in how data are used—from representing data to improving human perception of phenomena to prediction, which may or may not involve or be subject to human comprehension. There is a delicate balance that managers may have to strike in this area: they may need to let go of the need to understand in order to satisfy the need to predict. Yet, the risks of ethically repellant outcomes and regulatory constraints and the desire to satisfy sheer human curiosity make this balancing act far from trivial. Theorists may well soon face similar challenges (Puranam 2019). In the meantime, as algorithmic representation becomes ever more effective while becoming ever less comprehensible, the rise of new organizational roles—like *Data Storyteller*—may not be as surprising as it initially appears. As Weick suggested, a comprehensible and motivating story may have value independent of its veracity (Weick 1995). In a “mixed economy” of algorithmic decision analysis but ultimately human decision responsibility, compelling and clear narratives may become more, not less, important. <font color=purple>@TAG integration of intelligence and human</font>
 
+4. **History of seeking better solutions, AKA simulation optimization**. WSC, 2017. [paper](https://ieeexplore.ieee.org/document/8247787). *Michael C. Fu, Shane G. Henderson* 
+
 5. **Optimization problems for machine learning: A survey**. EJOR, 2021. [paper](https://doi.org/10.1016/j.ejor.2020.08.045). *Claudio Gambella, Bissan Ghaddar, Joe Naoum-Sawaya*. 
 
 6. **Machine learning for combinatorial optimization: A methodological tour d’horizon**. EJOR, 2020. [paper](https://doi.org/10.1016/j.ejor.2020.07.063). *Yoshua Bengio, Andrea Lodi, Antoine Prouvost*
@@ -53,9 +55,9 @@
 > Challenges
 > - Data generation. Collecting data (for example instances of optimization problems) is a subtle task. In other cases, i.e., when we are not targeting a specific application for which we would have historical data, how can we proactively train a policy for problems that we do not yet know of? 
 
-
-12. **Algorithm runtime prediction: Methods & evaluation**. Artificial Intelligence, 2014. [paper](http://dx.doi.org/10.1016/j.artint.2013.10.003). *Frank Hutter , Lin Xu, Holger H. Hoos, Kevin Leyton-Brown*.
-
-13. **Operations Research Improves Biomanufacturing Efficiency at MSD Animal Health**. INFORMS Journal on Applied Analytics, 2021. [paper](https://doi.org/10.1287/inte.2020.1054). *Tugce Martagan, Yesim Koca,Ivo Adan,Bram van Ravenstein,Marc Baaijens,Oscar Repping*
+7. **Operations Research Improves Biomanufacturing Efficiency at MSD Animal Health**. INFORMS Journal on Applied Analytics, 2021. [paper](https://doi.org/10.1287/inte.2020.1054). *Tugce Martagan, Yesim Koca,Ivo Adan,Bram van Ravenstein,Marc Baaijens,Oscar Repping*
 
 > Through several iterations, we made multiple enhancements to the simulation model to make sure that we created a digital twin of the Boxmeer facility. These enhancements included adding or removing dependencies and production constraints, adjusting process parameters, etc. The most significant tool enhancement was related to the optimization part. Initially, the project objective was to develop a simulation model for performance evaluation. The development of the optimization part arose naturally during the process as a new module to enhance the simulation model.
+
+8. **Algorithm runtime prediction: Methods & evaluation**. Artificial Intelligence, 2014. [paper](http://dx.doi.org/10.1016/j.artint.2013.10.003). *Frank Hutter , Lin Xu, Holger H. Hoos, Kevin Leyton-Brown*.
+

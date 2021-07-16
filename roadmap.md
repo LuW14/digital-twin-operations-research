@@ -48,3 +48,15 @@
 > - Digital Twin for people
 > - Digital Twin for factories
 > - Digital Twin for production networks
+
+3. **The promise of a digital twin strategy**. Microsoft, 2017. [report](https://info.microsoft.com/rs/157-GQE-382/images/Microsoft%27s%20Digital%20Twin%20%27How-To%27%20Whitepaper.pdf)
+
+> - Stage 1: Remote monitoring of smart, connected products with predictive analytics
+> - Stage 2: A platform for deep insights
+> - Stage 3: Smarter machines for a smarter business
+
+The final and most innovative stage is a fully integrated system that couples a real-time simulation platform with natural human interaction. By applying advanced artificial intelligence technologies such as cognitive services to your digital twin strategy, you now have a value-added layer of insight that could not be achieved from sensor data alone. These capabilities can automatically identify and report an issue, simulate numerous possible outcomes, and recommend the best resolution. 
+
+As you increase the quality of interactions between machines and humans, your machines learn and become more intelligent. They can perform such functions as self-optimization based on a learning system and report that back to help you enhance future design or improve customer services. You can also learn about potential quality issues or procedural problems in the way the product was built. As your machines become smarter, your business becomes smarter.
+
+The concept of an artificially intelligent product is now within reach for manufacturers, made possible by catalysts such as cognitive services, which will help to drive the next wave of innovation.

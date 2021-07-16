@@ -173,7 +173,7 @@ Technology & Processing Roadmap - TA11**. NASA, 2010. [report](https://www.nasa.
 
 31. **Combining Simulation and Machine Learning as Digital Twin for the Manufacturing of Overmolded Thermoplastic Composites**. Journal of Manufacturing and Materials Processing, 2020. [paper](https://doi.org/10.3390/jmmp4030092). *André Hürkamp et al.*
 
-32. **An architecture of an Intelligent Digital Twin in a Cyber-Physical Production System**. [paper](https://doi.org/10.1515/auto-2019-0039). *B. Ashtari Talkhestani et al.*
+32. **An architecture of an Intelligent Digital Twin in a Cyber-Physical Production System**. Automatisierungstechnik, 2019. [paper](https://doi.org/10.1515/auto-2019-0039). *B. Ashtari Talkhestani et al.*
 
 > There lacks, however, a clear, encompassing architecture covering necessary components of a Digital Twin to realize various use cases in an intelligent automation system.
 
@@ -181,7 +181,13 @@ Technology & Processing Roadmap - TA11**. NASA, 2010. [report](https://www.nasa.
 
 > To dynamically synchronize the Digital Twin with the physical asset throughout the entire lifecycle, an element is needed to understand and manage all models and data. Accordingly, the DT model comprehension in the architecture fulfills this purpose by storing information of the interdisciplinary models within the DT and its relations to other DTs. The DT model comprehension realizes a standardized semantic description of models, data and services for a uniform understanding within the DT and be- tween DTs.
 
-> 
+33. **A state‐of‐the‐art survey of Digital Twin: techniques, engineering product lifecycle management and business innovation perspectives**. Journal of Intelligent Manufacturing, 2020. [paper](https://doi.org/10.1007/s10845-019-01512-w). *Kendrik Yan Hong Limm, Pai Zheng, Chun‐Hsien Chen*
+
+> The systematic review further identifies eight future perspectives for DT, including modular DT, modeling consistency and accuracy, incorporation of Big Data analytics in DT models, DT simulation improvements, VR integration into DT, expansion of DT domains, efficient mapping of cyber-physical data and cloud/ edge computing integration. 
+
+34. **A DIGITAL TWIN CONCEPT FOR MANUFACTURING SYSTEMS**. ASME 2018 International Mechanical Engineering Congress and Exposition. [paper](https://asmedigitalcollection.asme.org/IMECE/proceedings-abstract/IMECE2018/52019/V002T02A073/276369). *Wesley Ellgass, Nathan Holt, Hector Saldana-Lemus, Julian Richmond, Ali Vatankhah Barenji, Germánico Gonzalez-Badillo*
+
+35. **A Methodology for Digital Twin Modeling and Deployment for Industry 4.0**. PROCEEDINGS OF THE IEEE, 2021. [paper](https://ieeexplore.ieee.org/document/9247401). *Greyce N. Schroeder et al.*
 
 ## [Industry reports in DT](#content)
 1. **Digital Twin Consortium Defines Digital Twin**. The Digital Twin Consortium, 2020. [article](https://blog.digitaltwinconsortium.org/2020/12/digital-twin-consortium-defines-digital-twin.html)
