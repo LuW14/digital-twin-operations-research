@@ -191,6 +191,10 @@ Alberto Vera, Siddhartha Banerjee (2021)
 
 11. **Generalized Online Routing: New Competitive Ratios, Resource Augmentation, and Asymptotic Analyses**. Operations Research, 2008. [paper](https://doi.org/10.1287/opre.1070.0450). *Patrick Jaillet, Michael R. Wagner*.
 
+12. **Likelihood robust optimization for data-driven problems**. Computational Management Science, 2016. [paper](https://link.springer.com/article/10.1007/s10287-015-0240-3). *Zizhuo Wang, Peter W. Glynn, Yinyu Ye*.
+
+13. **Efficient Steady-State Simulation of High-Dimensional Stochastic Networks**. Stochastic Systems, 2021. [paper](https://doi.org/10.1287/stsy.2021.0077).  *Jose Blanchet, Xinyun Chen, Nian Si, Peter W. Glynn*
+
 ### [Synchronization frequency](#content)
 1. **An Introduction to Event-triggered and Self-triggered Control**. IEEE 51st IEEE Conference on Decision and Control (CDC), 2012. [paper](https://ieeexplore.ieee.org/document/6425820). *W.P.M.H. Heemels, K.H. Johansson, P. Tabuada*
 

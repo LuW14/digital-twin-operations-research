@@ -14,6 +14,8 @@
 <tr>
 	<td>&emsp;&emsp;<a href=#automatically-generating-simulation-models>Automatically generating simulation models</a></td>
 	<td>&emsp;&emsp;<a href=#mixed-modeling>Mixed quantitative and qualitative modeling</a></td>
+</tr>
+<tr>
 	<td>&emsp;&emsp;<a href=#interoperability>Interoperability</a></td>
 </tr>
 </table>
@@ -51,6 +53,9 @@
 
 
 8. **System Dynamics Modeling: Tools for Learning in a Complex World**. California Management Review, 2001. [paepr](https://doi.org/10.2307/41166098. *John D. Sterman*. 
+
+9. **A tutorial on conceptual modeling for simulation**.  Proceedings ofthe 2015 Winter Simulation Conference, 2015. [paper](https://ieeexplore.ieee.org/document/7408298). *Stewart Robinson*
+
 
 ### [Data-driven modeling](#content)
 1. **Particle Methods for Data-Driven Simulation and Optimization**. In INFORMS TutORials in Operations Research, 2012. [paper](https://doi.org/10.1287/educ.1120.0104). *John R. Birge*. 
@@ -195,10 +200,13 @@
 
 19. **Soliciting human-in-the-loop user feedback for interactive machine learning reduces user trust and impressions of model accuracy**. Proceedings of the AAAI Conference on Human Computation and Crowdsourcing, 2020. [paper](https://www.cise.ufl.edu/~eragan/papers/Honeycutt_HCOMP2020.pdf). *Honeycutt D, Nourani M, Ragan E*
 
-6. **Reviewing the role of stakeholders in Operational Research: A stakeholder theory perspective**. EJOR, 2017. [paper](http://dx.doi.org/10.1016/j.ejor.2017.03.079). *Vincent de Gooyert, Etiënne Rouwette, Hans van Kranenburg, Edward Freeman*.
+20. **Reviewing the role of stakeholders in Operational Research: A stakeholder theory perspective**. EJOR, 2017. [paper](http://dx.doi.org/10.1016/j.ejor.2017.03.079). *Vincent de Gooyert, Etiënne Rouwette, Hans van Kranenburg, Edward Freeman*.
 
 <font color=purple>@TAG ownership; stakeholder management</font>
 
+21. **A Better Way to Onboard AI**. Harvard Business Review, July–August 2020. [paper](https://hbr.org/2020/07/a-better-way-to-onboard-ai). *Boris Babic, Daniel L. Chen, Theodoros Evgeniou, and Anne-Laure Fayard*.
+
+22. **Participatory Modeling and Simulation with the GAMA platform**. JASSS, 2019. [paper](https://www.jasss.org/22/2/3.html). *Patrick Taillandier, Arnaud Grignard, Nicolas Marilleau, Damien Philippon, Quang-Nghi Huynh, Benoit Gaudou, Alexis Drogoul*
 
 ### [Automatically generating simulation models](#content)
 1. **A Survey on Automatic Model Generation for Material Flow Simulation in Discrete Manufacturing**. 52nd CIRP Conference on Manufacturing Systems, 2019. [paper](https://doi.org/10.1016/j.procir.2019.03.022). *Heiner Reinhardt, Marek Weber, Matthias Putz*.

@@ -11,8 +11,7 @@
 	<td>&emsp;&emsp;<a href=#data-inconsistency>Data inconsistency</a></td>	
 </tr>
 <tr>
-	<td>&emsp;&emsp;<a href=#ownership>Ownership</a></td>
-	<td>&emsp;&emsp;<a href=#monetization>Monetization</a></td>
+	<td>&emsp;&emsp;<a href=#ownership-and-monetization>Ownership and Monetization</a></td>
 </tr>
 </table>
 
@@ -20,6 +19,7 @@
 
 
 ## [Integrating data](#content)
+1. **Data resources to create digital twins**. 2020 7th Swiss Conference on Data Science (SDS), 2020. [paper](http://dx.doi.org/10.1109/SDS49233.2020.00020). *Schweiger L, Barth L, Meierhofer J*.
 
 ### [Sensor deployment](#content)
 1. **Reliable Traffic Sensor Deployment Under Probabilistic Disruptions and Generalized Surveillance Effectiveness Measures**. Operations Research, 2012. [paper](https://doi.org/10.1287/opre.1120.1082). *Xiaopeng Li, Yanfeng Ouyang*.
@@ -34,7 +34,7 @@
 
 > We consider a centralized multisensor online quickest disorder detection problem where the observation from each sensor is a Wiener process gaining a constant drift at a common unobservable disorder time. The objective is to detect the disorder time as quickly as possible with small probability of false alarms. Unlike the earlier work on multisensor change detection problems, we assume that the observer can apply a sequential sensor installation policy. At any time before a disorder alarm is raised, the observer can install new sensors to collect additional signals. The sensors are statistically identical, and there is a fixed installation cost per sensor. We propose a Bayesian formulation of the problem. We identify an optimal policy consisting of a sequential sensor installation strategy and an alarm time, which minimize a linear Bayes risk of detection delay, false alarm, and new sensor installations. We also provide a numerical algorithm and illustrate it on examples. Our numerical examples show that significant reduction in the Bayes risk can be attained compared to the case where we apply a static sensor policy only. In some examples, the optimal sequential sensor installation policy starts with 30% less number of sensors than the optimal static sensor installation policy and the total percentage savings reach to 12%.
 
-### [Data Transmission]
+### [Data Transmission](#content)
 1. **Deployment strategies in the wireless sensor network: A comprehensive review**. Computer Communications, 2016. [paper](https://www.sciencedirect.com/science/article/pii/S0140366416302407). *Abdollahzadeh S, Navimipour NJ*
 
 2. **Data aggregation mechanisms in the Internet of things: A systematic review of the literature and recommendations for future research**. Journal of Network and Computer Applications, 2017. [paper](https://doi.org/10.1016/j.jnca.2017.08.006). *Behrouz Pourghebleh, Nima Jafari Navimipour*.
@@ -88,7 +88,7 @@ Summary of Contribution: We study the maximum lifetime data gathering tree (MLDT
 
 4. **Data inconsistency evaluation for cyberphysical system**. International Journal of Distributed Sensor Networks, 2016. [paper](http://dx.doi.org/10.1177/155014779496878). *Wang H, Li J, Gao H*
 
-### [Ownership](#content)
+### [Ownership and monetization](#content)
 1. **Data pricing strategy based on data qualit**y. Computers & Industrial Engineering, 2017. [paper](). *Yu H, Zhang M*
 
 2. **The Internet of Things and Information Fusion: Who Talks to Who?**. M&SOM, 2021. [paper](https://pubsonline.informs.org/doi/10.1287/msom.2020.0958). *Soroush Saghafian, Brian Tomlin, Stephan Billerc* <font color=purple>@TAG integration of data (interfirm); data quality; ownership</font>
@@ -97,10 +97,12 @@ Summary of Contribution: We study the maximum lifetime data gathering tree (MLDT
 
 > Consider any given sensor $i$, and assume (without loss of generality) that it can select its target from two sensors: a high-quality sensor (labeled $h$) and a lower-quality sensor (labeled $l$). When should sensor $i$ target sensor $h$? When should it target sensor $l$? How does this choice depend on the initial state $s_0$?
 
+3. **How IoT data ecosystems will transform B2B competition**. BCG, 2018. [article](https://image-src.bcg.com/Images/BCG-How-IoT-Data-Ecosystems-Will-Transform-B2B-Competition-July-2018_tcm14-197926.pdf) *Russo M, Albert M*
 
-### [Monetization](#content)
+4. 
 
 ### [Data processing](#content)
+(supplementary materials)
 1. **The of data fusion in predictive maintenance using digital twin**. AIP Conference Proceedings, 2018. [paper](https://doi.org/10.1063/1.5031520). *Zheng Liu, Norbert Meyendorf, and Nezih Mrad*.
 
 > The flow of information from raw data to high-level decision making is propelled by sensor-to-sensor, sensor-to-model, and model-to- model fusion.
