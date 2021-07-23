@@ -219,7 +219,7 @@
 
 43. **A state‐of‐the‐art survey of Digital Twin: techniques, engineering product lifecycle management and business innovation perspectives**. Journal of Intelligent Manufacturing, 2020. [paper](https://doi.org/10.1007/s10845-019-01512-w) *Kendrik Yan Hong Lim, Pai Zheng, Chun‐Hsien Chen*. 
 
-
+44. **Digital Twins: State of the Art Theory and Practice, Challenges, and Open Research Questions**. arXiv, 2020. [paper](https://arxiv.org/abs/2011.02833). *Angira Sharma, Edward Kosasih, Jie Zhang, Alexandra Brintrup, Anisoara Calinescu*
 
 
 ## [Industry reports in DT](#content)

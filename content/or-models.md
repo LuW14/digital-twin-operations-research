@@ -269,3 +269,7 @@
 > Methods: We introduce a machine learning for operations research paradigm to build efficient heuristics for such variants: use a machine learning predictor to turn an instance of the variant into an instance of the well-known problem, then solve the instance of the well-known problem, and finally retrieve a solution of the variant from the solution of the well-known problem. This paradigm requires learning the predictor that transforms an instance of the variant into an instance of the well-known problem. We introduce a structured learning methodology to learn that predictor.
 
 2. **A Model-Driven Approach to Interoperability Between Simulation and Optimization for Production and Logistics Systems**. NIST, 2021. [paper](https://doi.org/10.6028/NIST.IR.8326). *Timothy Sprock*
+
+3. **The General Combinatorial Optimization Problem: Towards Automated Algorithm Design**. IEEE COMPUTATIONAL INTELLIGENCE MAGAZINE, 2020. [paper](https://ieeexplore.ieee.org/abstract/document/9064746). *Rong Qu; Graham Kendall; Nelishia Pillay*
+
+

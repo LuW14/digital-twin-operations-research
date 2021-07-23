@@ -21,6 +21,8 @@
 ## [Integrating data](#content)
 1. **Data resources to create digital twins**. 2020 7th Swiss Conference on Data Science (SDS), 2020. [paper](http://dx.doi.org/10.1109/SDS49233.2020.00020). *Schweiger L, Barth L, Meierhofer J*.
 
+2. **Availability of Manufacturing data resources in Digital Twin**. 30th International Conference on Flexible Automation and Intelligent Manufacturing, 2021. [paper](https://www.sciencedirect.com/science/article/pii/S2351978920320151). *Sara Moghadaszadeh Bazaz, Mika Lohtander, Juha Varis*
+
 ### [Sensor deployment](#content)
 1. **Reliable Traffic Sensor Deployment Under Probabilistic Disruptions and Generalized Surveillance Effectiveness Measures**. Operations Research, 2012. [paper](https://doi.org/10.1287/opre.1120.1082). *Xiaopeng Li, Yanfeng Ouyang*.
 

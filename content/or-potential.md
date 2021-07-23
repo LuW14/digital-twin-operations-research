@@ -15,6 +15,8 @@
 ### [Standards](#content)
 1. **An ISO/IEEE 11073 Standardized Digital Twin Framework for Health and Well-Being in Smart Cities**.  IEEE Access, 2020. [paper](https://ieeexplore.ieee.org/abstract/document/9108291). *Fedwa Laamarti et al.*
 
+2. **Digital Twin Architecture and Standards**. Industrial Internet Consortium, IIC Journal of Innovation, 2019. [paper](https://www.iiconsortium.org/news/joi-articles/2019-November-JoI-Digital-Twin-Architecture-and-Standards.pdf). *K. Eric Harper, Dr. Somayeh Malakuti, Dr. Christopher Ganz*
+
 ### [scaling-up](#content)
 1. **Is Digital Thread/Digital Twin affordable? a systemic assessment of the cost of DoD’s latest manhattan project**. Procedia Comput Sci 114:47–56, ISSN 1877-0509, 2017. [paper](https://doi.org/10.1016/j.procs.2017.09.003Get). *West T, Blackburn M* 
 
