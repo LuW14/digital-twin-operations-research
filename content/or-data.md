@@ -101,7 +101,6 @@ Summary of Contribution: We study the maximum lifetime data gathering tree (MLDT
 
 3. **How IoT data ecosystems will transform B2B competition**. BCG, 2018. [article](https://image-src.bcg.com/Images/BCG-How-IoT-Data-Ecosystems-Will-Transform-B2B-Competition-July-2018_tcm14-197926.pdf) *Russo M, Albert M*
 
-4. 
 
 ### [Data processing](#content)
 (supplementary materials)
