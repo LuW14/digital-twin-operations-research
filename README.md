@@ -117,6 +117,8 @@ Here we provide a quick view. Please click the link for the details.
 	43. **A state‐of‐the‐art survey of Digital Twin: techniques, engineering product lifecycle management and business innovation perspectives**. Journal of Intelligent Manufacturing, 2020. [paper](https://doi.org/10.1007/s10845-019-01512-w) *Kendrik Yan Hong Lim, Pai Zheng, Chun‐Hsien Chen*. 
 
 	44. **Digital Twins: State of the Art Theory and Practice, Challenges, and Open Research Questions**. arXiv, 2020. [paper](https://arxiv.org/abs/2011.02833). *Angira Sharma, Edward Kosasih, Jie Zhang, Alexandra Brintrup, Anisoara Calinescu*
+	
+	45. **Digital Twins: Review and Challenges**. Journal of computing and information science in engineering, 2021. [paper](https://ieeexplore.ieee.org/document/9468224). *Maria G. Juarez, Vicente J. Botti, Adriana S. Giret*.
 
 - [Industry reports in DT](/content/dt-paper.md)
 	1. **Digital Twin Consortium Defines Digital Twin**. The Digital Twin Consortium, 2020. [article](https://blog.digitaltwinconsortium.org/2020/12/digital-twin-consortium-defines-digital-twin.html)
