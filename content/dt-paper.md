@@ -221,6 +221,9 @@
 
 44. **Digital Twins: State of the Art Theory and Practice, Challenges, and Open Research Questions**. arXiv, 2020. [paper](https://arxiv.org/abs/2011.02833). *Angira Sharma, Edward Kosasih, Jie Zhang, Alexandra Brintrup, Anisoara Calinescu*
 
+45. **Digital Twins: Review and Challenges**. Journal of computing and information science in engineering, 2021. [paper](https://asmedigitalcollection.asme.org/computingengineering/article/21/3/030802/1100428/Digital-Twins-Review-and-Challenges). *Maria G. Juarez, Vicente J. Botti, Adriana S. Giret*.
+
+> The main goal of this paper is to provide a review of the existing literature to clarify the concept, operation, and main characteristics of DT, to introduce the most current operating, communication, and usage trends related to this technology, and to present the performance of the synergy between DT and multi-agent system (MAS) technologies through a computer science approach.
 
 ## [Industry reports in DT](#content)
 1. **Digital Twin Consortium Defines Digital Twin**. The Digital Twin Consortium, 2020. [article](https://blog.digitaltwinconsortium.org/2020/12/digital-twin-consortium-defines-digital-twin.html)
