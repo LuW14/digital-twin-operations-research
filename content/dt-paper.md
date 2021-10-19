@@ -225,6 +225,14 @@
 
 > The main goal of this paper is to provide a review of the existing literature to clarify the concept, operation, and main characteristics of DT, to introduce the most current operating, communication, and usage trends related to this technology, and to present the performance of the synergy between DT and multi-agent system (MAS) technologies through a computer science approach.
 
+46. **Autonomous, context-aware, adaptive Digital Twins—State of the art and roadmap**. Computers in Industry, 2021. [paper](https://www.sciencedirect.com/science/article/pii/S0166361521001159). *Karl Hribernika, Giacomo Cabrib, Federica Mandreolib, Gregoris Mentzasc*
+
+ > Research and development gap
+ > 1. Interoperability. Underlying these interoperability issues is the need for work on standards and protocols for DT informa- tion exchange. The breadth of information, model and technology heterogeneity and the use of DTs in different sectors makes stan- dardization for DT interoperability extremely challenging.
+ > 2. Modeling. General issue in a DT includes the required granularity of mapping of DTs to physical counterparts and managing emergent system behaviour; how systems of networked DTs may be organised e.g. as agent heterarchies/holarchies.
+ > 3. An issue regarding adaptivity is the definition of mechanisms for the translation of business goals into actionable plans that the physical counterpart can carry out and can adapt in response to unexpected situations. 
+ > 4. Data processing for real-time, proactive decision-making. Real-time, proactive decision-making itself requires methods for making time-constrained near-optimal decisions. This might dictate the use of approximation techniques and could entail autonomic actions, rather than only providing recommendations for humans. Furthermore, massive volumes of historical data and streaming data need to be handled and analysed in real-time to forecast events, which will require new methods. Most current systems cannot handle big data in real-time because of scalability prob- lems, the need to cleanse noisy data offline, or difficulties in fusing heterogeneous data types and sources online. Most analyses are today done on offline data, which means new approaches need to be developed. In contrast, data scarcity can result in problems of epistemic uncertainty, where a lack of knowledge can lead to diffi- culties in simulating or predicting system behaviour.
+
 ## [Industry reports in DT](#content)
 1. **Digital Twin Consortium Defines Digital Twin**. The Digital Twin Consortium, 2020. [article](https://blog.digitaltwinconsortium.org/2020/12/digital-twin-consortium-defines-digital-twin.html)
 
