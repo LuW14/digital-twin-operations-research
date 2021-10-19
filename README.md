@@ -119,6 +119,7 @@ Here we provide a quick view. Please click the link for the details.
 	44. **Digital Twins: State of the Art Theory and Practice, Challenges, and Open Research Questions**. arXiv, 2020. [paper](https://arxiv.org/abs/2011.02833). *Angira Sharma, Edward Kosasih, Jie Zhang, Alexandra Brintrup, Anisoara Calinescu*
 	
 	45. **Digital Twins: Review and Challenges**. Journal of computing and information science in engineering, 2021. [paper](https://asmedigitalcollection.asme.org/computingengineering/article/21/3/030802/1100428/Digital-Twins-Review-and-Challenges). *Maria G. Juarez, Vicente J. Botti, Adriana S. Giret*.
+	46. **Autonomous, context-aware, adaptive Digital Twins—State of the art and roadmap**. Computers in Industry, 2021. [paper](https://www.sciencedirect.com/science/article/pii/S0166361521001159). *Karl Hribernika, Giacomo Cabrib, Federica Mandreolib, Gregoris Mentzasc*
 
 - [Industry reports in DT](/content/dt-paper.md)
 	1. **Digital Twin Consortium Defines Digital Twin**. The Digital Twin Consortium, 2020. [article](https://blog.digitaltwinconsortium.org/2020/12/digital-twin-consortium-defines-digital-twin.html)
